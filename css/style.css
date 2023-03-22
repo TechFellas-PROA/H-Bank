@@ -1,7 +1,21 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(/fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: Atomed;
+    src: url(/fontes/Atomed/Atomed.otf);
+}
+
 *{
     padding: 0;
     border: 0;
     margin: 0;
+}
+
+body{
+    font-family: Montserrat;
 }
 
 header{
@@ -18,7 +32,7 @@ header #boxlogo{
     color: #06D39A;
     font-size: 15px;
     margin-left: 20px;
-
+    font-family: Atomed;
 }
 header  #boxlinks_header{
     width: 50%;
@@ -30,7 +44,12 @@ header  #boxlinks_header{
 }
 #boxlinks_header a{
     text-decoration: none; 
-    color: #000;  
+    color: #000;
+    transition: 0.05s;
+}
+
+#boxlinks_header a:hover{
+    border-bottom: solid;
 }
 
 #linkAtual{
@@ -46,25 +65,68 @@ header  #boxlinks_header{
 
 div #boxlogin{
     margin-right: 20px;
+}
+#boxlogin a{
+    text-decoration: none;
+    color: #06d39a;
     background-color: #fff;
     padding: 6px 50px 6px 50px;
     border-radius: 3px;
 }
 
-#boxlogin a{
-    text-decoration: none;
-    color: #06D39A;
-    
-}
-
 div #boxregistro{
     margin-right: 20px;
-    background-color: #06D39A;
-    padding: 6px 30px 6px 30px;
-    border-radius: 3px;
 }
 
 #boxregistro a{
     text-decoration: none;
     color: #000;
+    background-color: #06d39a;
+    padding: 6px 30px 6px 30px;
+    border-radius: 3px;
+}
+
+#boxregistro:hover{
+    background-color: #fff;
+    transition: 0.7s;
+}
+#boxregistro a:hover{
+   color: #06d39a;
+   background-color: #fff;
+   transition: 0.7s;
+}
+
+#resumo{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+#resumo div{
+    border: 0px solid black;
+    height: 700px;
+    margin-bottom: 10px;
+}
+
+#texto_resumo{
+    display: flex;
+    width: 40%;
+    font-size: 73px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+    box-sizing: border-box;
+}
+
+.textoDestaque{
+    color: #04d99d;
+}
+
+#modelo{
+    width: 60%;
+    background-image: url(/assets-home/Modelo.png);
+    background-repeat: no-repeat;
+    background-position: 0px -50px;
+    align-self: flex-start;
+    box-sizing: border-box;
 }
