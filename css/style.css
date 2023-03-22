@@ -21,16 +21,20 @@ header #boxlogo{
 
 }
 header  #boxlinks_header{
-       width: 50%;
-       margin: auto;
-       font-size: 20px;
-       display: flex;
-       justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
       
 }
 #boxlinks_header a{
     text-decoration: none; 
     color: #000;  
+}
+
+#linkAtual{
+    border-bottom: solid;
 }
 
 #boxcadastro{
@@ -63,5 +67,4 @@ div #boxregistro{
 #boxregistro a{
     text-decoration: none;
     color: #000;
-    
 }
