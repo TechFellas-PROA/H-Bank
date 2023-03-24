@@ -210,7 +210,7 @@ div #boxregistro{
 
 .box_inferior  {
     width: 20%;
-    height: 335px;
+    height: 85%;
     margin: auto;
     text-align: center;
     border: 0.5px solid #000;
@@ -250,7 +250,7 @@ div #boxregistro{
 
 #investimentos h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
     padding-bottom: 100px;
     font-weight: light;
     
@@ -268,7 +268,7 @@ div #boxregistro{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    gap: 50px;     
+    gap: 5vw;     
 }
 
 #texto_invest{
@@ -280,9 +280,8 @@ div #boxregistro{
 }
 
 #texto_invest button{
-    margin-top: 3vw;
+    margin-top: 30vh;
     width: 55%;
-    margin: a;
     background-color: #06d39a;
     font-size: 2vw;
     padding: 10px;
@@ -301,13 +300,28 @@ div #boxregistro{
 }
 
 #article2 h3 {
-    text-align: center;
-    font-size: 2vw;
+    text-align: right;
+    font-size: 2.5vw;
 }
+
 
 .invista_meio div {
     display: flex;
     flex-direction: row;
+    margin-top: 8%;
+    gap: 1vw;
+}
+
+.invista_meio img {
+    width: 5vw;
+    border-radius: 100%;
+}
+
+.invista_meio h4 {
+    font-size: 1.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #img_maior img {
