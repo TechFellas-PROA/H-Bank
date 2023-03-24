@@ -20,16 +20,15 @@
 body{
     background-color: #f9f9f9;
 }
+
 #img_backgraud{
     width: 100%;
-    height: 670px;
-    
-    
+    height: 100vh;
 }
 img{
     position: absolute;
   width: 100%;
-  height: 100%;
+  height: auto;
   z-index: -1;
 }
 
@@ -75,9 +74,11 @@ header #boxlinks_header{
     padding: 10px;
     font-family: Montserrat;
 }
+
 div #boxlogin{
     margin-right: 20px;   
 }
+
 #boxlogin a{
     text-decoration: none;
     color: #06d39a;
@@ -88,9 +89,11 @@ div #boxlogin{
 #page_atual{
     border-bottom: solid 0.5px;
 }
+
 div #boxregistro{
     margin-right: 20px;
 }
+
 #boxregistro a{
     text-decoration: none;
     color: #000;
@@ -120,55 +123,71 @@ div #boxlogin:hover{
    
 }
 
-main {
-    width: 100%;
+/* --- Trajetoria inicio -- */
+
+.trajetoria {
+    width: 100vw;
     background-color: #f9f9f9;
     height: 300px;
-    margin-top: 145px;
-    
-   
-
 }
 
 #boxtitulo_sobre_nos{
-   width: 60%;
-   margin: auto;
+   width: 26.5%;
    font-family: Montserrat;
+   align-items: center;
+   margin-top: 12.5%;
+   margin-left: 37%;
+   font-size: 40px;
 }
 
-.gren_titulo{
+.green_titulo{
     color: #06d39a;
     font-family: Montserrat;
 }
 
-h2{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    
-
-}
- #botom {
-    width: 35%;
+#botao {
+    width: 24.3%;
     display: flex;
-    margin-top: 200px;
     margin: auto;
-
-    
-    
-   
-
 }
-#botom button{
+
+input {
    background-color: #06d39a;
    padding: 20px 15px 20px 15px;
-   border-radius: 80%;
+   border-radius: 30px;
+}
 
+#camada1, #camada2, #camada3, #camada4, #camada5 {
+    background-color: #EDEDED;
+    font-family: Montserrat;
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    left: 30%;
+    margin-top: 2%;
+    border-radius: 13px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: justify;
+    visibility: hidden;
+    text-align: center;
+}
+
+#camada1 {
+    visibility: visible;
+}
+
+.titulo_trajetoria{
+    color: #0D946E;
+    font-size: 35px;
+}
+
+.paragrafo_trajetoria{
+    font-size: 20px;
+    margin-top: 3%;
 }
 
 
-/* criando linhas na linha do tempo */
 .linha{
     display: block;
     margin-top: 0.5rem;
@@ -181,7 +200,8 @@ h2{
     opacity: 80%;
     rotate: 270deg;
 }
-/* ---------------------------------- */
+
+/* --- Trajetoria fim -- */
 
 
 
