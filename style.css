@@ -233,3 +233,58 @@ div #boxregistro{
 .box_inferior p {
     font-size: 2.6vw;
 }
+
+#investimentos{
+    position: relative;
+    width: 80%;
+    margin: auto;
+   
+}
+
+#investimentos h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 100px;
+    font-weight: light;
+    
+}
+
+#invest{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center;
+    color: #04d99d;
+}
+
+article{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    gap: 170px;    
+    
+}
+
+
+#texto_invest{
+    font-size: 36px;
+    width: 45%;
+    margin-top: 200px;
+    text-align: justify;
+    
+}
+
+#texto_invest button{
+    margin-top: 25px;
+    width: 35%;
+    background-color: #06d39a;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 35px;
+    color: #E5E5E5;
+    cursor: pointer;
+    
+}
+
+
