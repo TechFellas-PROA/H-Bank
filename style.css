@@ -296,14 +296,13 @@ div #boxregistro{
     display: flex;
     justify-content: space-around;
     margin: auto;
-    gap: 50px;
+    gap: 10vw;
 }
 
 #article2 h3 {
     text-align: right;
     font-size: 2.5vw;
 }
-
 
 .invista_meio div {
     display: flex;
@@ -325,7 +324,7 @@ div #boxregistro{
 }
 
 #img_maior img {
-    width: 50vw;
+    width: 40vw;
 }
 
 #abra_conta {
