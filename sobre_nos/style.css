@@ -1,3 +1,21 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(/fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: Atomed;
+    src: url(/fontes/Atomed/Atomed.otf);
+}
+
+
 
 body{
     background-color: #f9f9f9;
@@ -30,8 +48,10 @@ header{
 }
 header #boxlogo{
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
     margin-left: 20px;
+    font-family: Atomed;
+    
 
 }
 header #boxlinks_header{
@@ -40,17 +60,20 @@ header #boxlinks_header{
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+    font-family: Montserrat;
 
 }
 #boxlinks_header a{
     text-decoration: none;
     color: #ffffff;
+    
 }
  #boxcadastro{
     width: auto;
     align-items: center;
     display: flex;
     padding: 10px;
+    font-family: Montserrat;
 }
 div #boxlogin{
     margin-right: 20px;   
@@ -101,7 +124,7 @@ main {
     width: 100%;
     background-color: #f9f9f9;
     height: 300px;
-
+    margin-top: 145px;
     
    
 
@@ -110,13 +133,15 @@ main {
 #boxtitulo_sobre_nos{
    width: 60%;
    margin: auto;
+   font-family: Montserrat;
 }
 
 .gren_titulo{
     color: #06d39a;
+    font-family: Montserrat;
 }
 
-h1{
+h2{
     text-align: center;
     font-size: 40px;
     margin-top: 50px;
