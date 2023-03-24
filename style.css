@@ -191,11 +191,18 @@ div #boxregistro{
     border-radius: 0 0 var(--tamanho_borda) var(--tamanho_borda);
 }
 
+#h1_inferior {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 2.2vw;
+}
+
 #inferior {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 50vh;
+    margin-top: 10vh;
     width: 100%;
     height: 400px;
     background-color: rgb(255, 255, 255);
@@ -203,7 +210,7 @@ div #boxregistro{
 
 .box_inferior  {
     width: 20%;
-    height: 320px;
+    height: 335px;
     margin: auto;
     text-align: center;
     border: 0.5px solid #000;
@@ -257,9 +264,8 @@ div #boxregistro{
     color: #04d99d;
 }
 
-article{
+#article1{
     width: 100%;
-    margin-top: 1px;
     display: flex;
     justify-content: space-around;
     gap: 50px;     
@@ -286,4 +292,50 @@ article{
     
 }
 
+#article2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    gap: 50px;
+}
 
+#article2 h3 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.invista_meio div {
+    display: flex;
+    flex-direction: row;
+}
+
+#img_maior img {
+    width: 50vw;
+}
+
+#abra_conta {
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 50vh;
+}
+
+#abra_conta button {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    height: 10vh;
+    background-color: #0D946E;
+    border: 1px solid #04D99D;
+    border-radius: 20px;
+    color: #fff;
+    margin: auto;
+    font-size: 3vw;
+}
+
+button label {
+    cursor: pointer;
+}
