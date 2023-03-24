@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(/fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: Atomed;
+    src: url(/fontes/Atomed/Atomed.otf);
+}
+
+
+
+body{
+    background-color: #f9f9f9;
+}
+#img_backgraud{
+    width: 100%;
+    height: 670px;
+    
+    
+}
+img{
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #00000044;
+    display: flex;
+    align-items: center;
+
+}
+header #boxlogo{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: Atomed;
+    
+
+}
+header #boxlinks_header{
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Montserrat;
+
+}
+#boxlinks_header a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+ #boxcadastro{
+    width: auto;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-family: Montserrat;
+}
+div #boxlogin{
+    margin-right: 20px;   
+}
+#boxlogin a{
+    text-decoration: none;
+    color: #06d39a;
+    background-color: #fff;
+    padding: 6px 50px 6px 50px;
+    border-radius: 3px;
+}
+#page_atual{
+    border-bottom: solid 0.5px;
+}
+div #boxregistro{
+    margin-right: 20px;
+}
+#boxregistro a{
+    text-decoration: none;
+    color: #000;
+    background-color: #06d39a;
+    padding: 6px 30px 6px 30px;
+    border-radius: 3px;
+}
+div #boxregistro:hover{
+     background-color: #fff;
+     transition: 0.7s;
+}
+#boxregistro a:hover{
+    color: #06d39a;
+    background-color: #fff;
+    transition: 0.7s;
+}
+
+div #boxlogin:hover{
+    background-color: #06d39a;
+    transition: 0.7;
+}
+
+#boxlogin a:hover{
+    color: #000;
+    background-color: #06d39a;
+    transition: 0.7s;
+   
+}
+
+main {
+    width: 100%;
+    background-color: #f9f9f9;
+    height: 300px;
+    margin-top: 145px;
+    
+   
+
+}
+
+#boxtitulo_sobre_nos{
+   width: 60%;
+   margin: auto;
+   font-family: Montserrat;
+}
+
+.gren_titulo{
+    color: #06d39a;
+    font-family: Montserrat;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+
+}
+ #botom {
+    width: 35%;
+    display: flex;
+    margin-top: 200px;
+    margin: auto;
+
+    
+    
+   
+
+}
+#botom button{
+   background-color: #06d39a;
+   padding: 20px 15px 20px 15px;
+   border-radius: 80%;
+
+}
+
+
+/* criando linhas na linha do tempo */
+.linha{
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style: dashed;
+    border-color: #000;
+    border-width: 0.7px;
+    opacity: 80%;
+    rotate: 270deg;
+}
+/* ---------------------------------- */
+
+
+
+
+
+
+
+

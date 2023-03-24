@@ -129,7 +129,7 @@ div #boxregistro{
 
 #modelo{
     width: 60%;
-    background-image: url(/assets-home/Modelo.png);
+    background-image: url(/assets/Modelo.png);
     background-repeat: no-repeat;
     background-position: 0px -50px;
     align-self: flex-start;
@@ -141,6 +141,16 @@ div #boxregistro{
     width: 100%;
     height: 1000px;
     background-color: #0DC591;
+    
+}
+
+#vantagens h1{
+    font-size: 40px;
+}
+
+#vantagens p{
+    font-size: 25px;
+    color: #E5E5E5;
 }
 
 #conteudoVantagens{
@@ -148,11 +158,13 @@ div #boxregistro{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 200px;
     align-items: center;
     width: 100%;
     height: 100%;
     padding: 0 10% 0 10%;
     box-sizing: border-box;
+    
 }
 
 
