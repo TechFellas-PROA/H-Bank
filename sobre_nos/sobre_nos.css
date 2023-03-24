@@ -123,21 +123,21 @@ div #boxlogin:hover{
    
 }
 
+/* --- Trajetoria inicio -- */
+
 .trajetoria {
     width: 100vw;
     background-color: #f9f9f9;
     height: 300px;
 }
 
-/* --- Trajetoria inicio -- */
-
 #boxtitulo_sobre_nos{
-   width: 20%;
+   width: 26.5%;
    font-family: Montserrat;
    align-items: center;
    margin-top: 12.5%;
-   margin-left: 40%;
-   font-size: 30px;
+   margin-left: 37%;
+   font-size: 40px;
 }
 
 .green_titulo{
@@ -145,8 +145,8 @@ div #boxlogin:hover{
     font-family: Montserrat;
 }
 
- #botao {
-    width: 35%;
+#botao {
+    width: 24.3%;
     display: flex;
     margin: auto;
 }
