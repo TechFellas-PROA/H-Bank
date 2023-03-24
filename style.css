@@ -116,7 +116,7 @@ div #boxregistro{
 #texto_resumo{
     display: flex;
     width: 40%;
-    font-size: 73px;
+    font-size: 5vw;
     justify-content: center;
     align-items: center;
     padding-left: 6%;
@@ -259,27 +259,26 @@ div #boxregistro{
 
 article{
     width: 100%;
-    margin-top: 150px;
+    margin-top: 1px;
     display: flex;
     justify-content: space-around;
-    gap: 170px;    
-    
+    gap: 50px;     
 }
 
-
 #texto_invest{
-    font-size: 36px;
-    width: 45%;
-    margin-top: 200px;
-    text-align: justify;
+    font-size: 2vw;
+    width: 200%;
+    margin-top: 125px;
+    text-align: center;
     
 }
 
 #texto_invest button{
-    margin-top: 25px;
-    width: 35%;
+    margin-top: 3vw;
+    width: 55%;
+    margin: a;
     background-color: #06d39a;
-    font-size: 25px;
+    font-size: 2vw;
     padding: 10px;
     border-radius: 35px;
     color: #E5E5E5;
