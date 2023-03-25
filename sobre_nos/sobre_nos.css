@@ -19,6 +19,7 @@
 
 body{
     background-color: #f9f9f9;
+    width: 100vw;
 }
 
 #img_backgraud{
@@ -126,17 +127,22 @@ div #boxlogin:hover{
 /* --- Trajetoria inicio -- */
 
 .trajetoria {
-    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    width: 100vw; /* --- 100vw ultrapassava o tamanho da tela --- */
+    height: 400px;
     background-color: #f9f9f9;
-    height: 300px;
+    background-color: blue;
+    
 }
 
 #boxtitulo_sobre_nos{
-   width: 40%;
    font-family: Montserrat;
    align-items: center;
-   margin: auto;
-   margin-top: 12.5%;
+   align-self: center;
    font-size: 40px;
 }
 
@@ -146,9 +152,9 @@ div #boxlogin:hover{
 }
 
 #botao {
-    width: 24.3%;
+    width: 465px;
     display: flex;
-    margin: auto;
+    align-self: center;
 }
 
 input {
@@ -162,14 +168,19 @@ input {
     background-color: #06d39a;
 }
 
+#boxCamadas{
+    position: relative;
+    width: 40%;
+    height: 200px;
+    align-self: center;
+}
+
 #camada1, #camada2, #camada3, #camada4, #camada5 {
     background-color: #EDEDED;
     font-family: Montserrat;
     position: absolute;
-    width: 40%;
+    width: 100%;
     height: 200px;
-    left: 30%;
-    margin-top: 2%;
     border-radius: 13px;
     padding: 5px;
     box-sizing: border-box;
@@ -194,7 +205,7 @@ input {
 
 
 .linha{
-    display: block;
+    /*display: block;*/
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     margin-right: 20px;
@@ -207,11 +218,3 @@ input {
 }
 
 /* --- Trajetoria fim -- */
-
-
-
-
-
-
-
-
