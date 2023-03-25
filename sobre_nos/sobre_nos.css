@@ -132,11 +132,11 @@ div #boxlogin:hover{
 }
 
 #boxtitulo_sobre_nos{
-   width: 26.5%;
+   width: 40%;
    font-family: Montserrat;
    align-items: center;
+   margin: auto;
    margin-top: 12.5%;
-   margin-left: 37%;
    font-size: 40px;
 }
 
@@ -152,9 +152,14 @@ div #boxlogin:hover{
 }
 
 input {
-   background-color: #06d39a;
+   background-color: #8d9292;
    padding: 20px 15px 20px 15px;
    border-radius: 30px;
+   transition: 0.2s;
+}
+
+#ano_2014{
+    background-color: #06d39a;
 }
 
 #camada1, #camada2, #camada3, #camada4, #camada5 {
