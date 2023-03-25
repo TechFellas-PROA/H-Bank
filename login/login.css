@@ -68,7 +68,7 @@ section{
     top: 30px;
     margin: auto;
     width: 33%;
-    height: 650px;
+    height: 550px;
     background-color: azure ;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.23);
@@ -125,7 +125,7 @@ section button{
 
 
     position: relative;
-    top: 100px;
+    top: 50px;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -150,7 +150,7 @@ section button:hover{
 
 section p{
     position: relative;
-    margin-top: 140px;
+    margin-top: 90px;
     text-align: center;
     font-family: Montserrat;
     
