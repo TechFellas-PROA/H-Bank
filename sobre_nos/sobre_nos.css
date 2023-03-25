@@ -133,10 +133,8 @@ div #boxlogin:hover{
     justify-content: space-between;
     padding-bottom: 50px;
     width: 100vw; /* --- 100vw ultrapassava o tamanho da tela --- */
-    height: 400px;
+    height: 100vh;
     background-color: #f9f9f9;
-    background-color: blue;
-    
 }
 
 #boxtitulo_sobre_nos{
@@ -144,6 +142,7 @@ div #boxlogin:hover{
    align-items: center;
    align-self: center;
    font-size: 40px;
+   margin-top: 2%;
 }
 
 .green_titulo{
@@ -152,9 +151,10 @@ div #boxlogin:hover{
 }
 
 #botao {
-    width: 465px;
+    width: 50%;
     display: flex;
     align-self: center;
+    justify-content: space-around;
 }
 
 input {
@@ -170,21 +170,20 @@ input {
 
 #boxCamadas{
     position: relative;
-    width: 40%;
-    height: 200px;
+    width: 55%;
     align-self: center;
+    margin-bottom: 18%;
 }
 
 #camada1, #camada2, #camada3, #camada4, #camada5 {
-    background-color: #EDEDED;
+    background-color: #cdcdcd;
     font-family: Montserrat;
     position: absolute;
     width: 100%;
-    height: 200px;
+    height: auto;
     border-radius: 13px;
-    padding: 5px;
+    padding: 10px;
     box-sizing: border-box;
-    text-align: justify;
     visibility: hidden;
     text-align: center;
 }
@@ -205,15 +204,9 @@ input {
 
 
 .linha{
-    /*display: block;*/
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-right: 20px;
-    margin-left: 20px;
     border-style: dashed;
     border-color: #000;
-    border-width: 0.7px;
-    opacity: 80%;
+    border-width: 2px;
     rotate: 270deg;
 }
 
