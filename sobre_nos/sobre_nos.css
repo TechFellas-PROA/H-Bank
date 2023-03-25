@@ -71,7 +71,7 @@ header #boxlinks_header{
 }
 
 #boxlinks_header a:hover{
-    border-bottom: solid;
+    border-bottom: solid 1px;
     
 }
 
@@ -183,7 +183,7 @@ input {
 }
 
 #camada1, #camada2, #camada3, #camada4, #camada5 {
-    background-color: #cdcdcd;
+    background-color: #cdcdcd5b;
     font-family: Montserrat;
     position: absolute;
     width: 100%;
@@ -200,13 +200,14 @@ input {
 }
 
 .titulo_trajetoria{
-    color: #0D946E;
+    color: #1bca98;
     font-size: 35px;
 }
 
 .paragrafo_trajetoria{
     font-size: 20px;
     margin-top: 3%;
+    padding: 10px;
 }
 
 
@@ -260,7 +261,7 @@ input {
     text-align:left;
 }
 
-#plus_box h1{
+#plus_box h1    {
     font-size: 20px;
     margin-bottom: 25px;
     color: #fff;
@@ -273,31 +274,40 @@ input {
 }
 
 #plus_box1{
-    background-color: #0DC591;
+    background: rgb(4,217,157);
+    background: linear-gradient(300deg, #12A1B0 0%, #0DC591 100%);
     width: 47%;
     padding: 3%;
     border-radius: 30px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+
 }
 
 #plus_box2{
-    background-color: #0DC591;
+    background: rgb(4,217,157);
+    background: linear-gradient(300deg, #12A1B0 0%, #0DC591 100%);
     width: 47%;
     padding: 3%;
     border-radius: 30px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 #plus_box3{
-    background-color: #0DC591;
+    background: rgb(4,217,157);
+    background: linear-gradient(300deg, #12A1B0 0%, #0DC591 100%);
     width: 47%;
     padding: 3%;
     border-radius: 30px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 #plus_box4{
-    background-color: #0DC591;
+    background: rgb(4,217,157);
+    background: linear-gradient(300deg, #12A1B0 0%, #0DC591 100%);
     width: 47%;
     padding: 3%;
     border-radius: 30px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* --- Plus fim -- */
