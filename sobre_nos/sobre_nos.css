@@ -128,12 +128,12 @@ div #boxlogin:hover{
 /* --- Trajetoria inicio -- */
 
 .trajetoria {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 50px;
-    width: 100%; /* --- 100vw ultrapassava o tamanho da tela --- */
+    width: 100%;
     height: 100vh;
     background-color: #f9f9f9;
 }
@@ -143,7 +143,7 @@ div #boxlogin:hover{
    align-items: center;
    align-self: center;
    font-size: 40px;
-   margin-top: 2%;
+   margin-top: 3%;
 }
 
 .green_titulo{
@@ -212,3 +212,84 @@ input {
 }
 
 /* --- Trajetoria fim -- */
+
+/* --- Plus inicio -- */
+
+.plus {
+    font-family: Montserrat;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    background-color: #f9f9f9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plus_titulo {
+    font-size: 40px;
+    width: 50%;
+}
+
+#plus_box {
+    position: relative;
+    width: 55%; 
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 20px;
+    text-align:left;
+}
+
+#plus_box_box {
+    position: relative;
+    width: 55%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 20px;
+    text-align:left;
+}
+
+#plus_box h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#plus_box_box h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#plus_box1{
+    background-color: #0DC591;
+    width: 47%;
+    padding: 3%;
+    border-radius: 30px;
+}
+
+#plus_box2{
+    background-color: #0DC591;
+    width: 47%;
+    padding: 3%;
+    border-radius: 30px;
+}
+
+#plus_box3{
+    background-color: #0DC591;
+    width: 47%;
+    padding: 3%;
+    border-radius: 30px;
+}
+
+#plus_box4{
+    background-color: #0DC591;
+    width: 47%;
+    padding: 3%;
+    border-radius: 30px;
+}
+
+/* --- Plus fim -- */
