@@ -106,7 +106,7 @@ section h2{
   
 }
 
-section input{
+#enter input{
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -117,13 +117,9 @@ section input{
     background-color: rgba(240, 255, 255, 0.651);
     font-family: Montserrat;
     font-size: 20px;
-    
-    
 }
 
-section button{
-
-
+#botaoLogin{
     position: relative;
     top: 50px;
     align-items: center;
@@ -139,13 +135,12 @@ section button{
     font-family: Montserrat;
     font-weight: light;
     cursor: pointer;
-    
+    transition: 0.4s;
 }
 
-section button:hover{
+#botaoLogin:hover{
     background-color: #ffffffd3;
     color:rgba(62, 231, 146, 0.671);
-    transition: 0.4s;
 }
 
 section p{
@@ -153,7 +148,6 @@ section p{
     margin-top: 90px;
     text-align: center;
     font-family: Montserrat;
-    
 }
 
 section p a{
@@ -168,4 +162,3 @@ section p a:hover{
     color: #ffffff;
     transition: 0.4s;
 }
-
