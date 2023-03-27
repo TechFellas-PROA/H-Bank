@@ -342,7 +342,7 @@ div #boxregistro{
     margin-bottom: 50vh;
 }
 
-#abra_conta button {
+#abra_conta a {
     position: relative;
     cursor: pointer;
     text-align: center;
@@ -355,6 +355,7 @@ div #boxregistro{
     color: #fff;
     margin: auto;
     font-size: 3vw;
+    text-decoration: none;
 }
 
 button label {
