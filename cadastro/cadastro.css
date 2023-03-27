@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background: rgb(4,217,157);
+    background: linear-gradient(170deg, rgba(12, 167, 123, 0.541) 0%, rgba(62, 231, 146, 0.671) 100%);
+}
+
 @font-face{
     font-family: Montserrat;
     src: url(/fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
@@ -19,9 +24,7 @@
 main{
     position: fixed;
     width: 100%;
-    height: 950px;
-    background: rgb(4,217,157);
-    background: linear-gradient(170deg, rgba(12, 167, 123, 0.541) 0%, rgba(62, 231, 146, 0.671) 100%);
+    height: 100vh;
     
 }
 
@@ -65,7 +68,6 @@ header h4{
 
 section{
     position: relative;
-    top: 30px;
     margin: auto;
     width: 33%;
     height: 560px;
@@ -147,11 +149,9 @@ section h2{
     
 }
 
-section button{
-
-
+#botaoLogin{
     position: relative;
-    top: 35px;
+    top: 30px;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -165,13 +165,12 @@ section button{
     font-family: Montserrat;
     font-weight: light;
     cursor: pointer;
-    
+    transition: 0.4s;
 }
 
-section button:hover{
+#botaoLogin:hover{
     background-color: #ffffffd3;
     color:rgba(62, 231, 146, 0.671);
-    transition: 0.4s;
 }
 
 section p{
