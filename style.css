@@ -284,11 +284,12 @@ div #boxregistro{
 #texto_invest button{
     margin-top: 30vh;
     width: 55%;
-    background-color: #06d39a;
+    background-color: #0D946E;
+    border: 1px solid #04D99D;
+    border-radius: 20px;
+    color: #fff;
     font-size: 2vw;
     padding: 10px;
-    border-radius: 35px;
-    color: #E5E5E5;
     cursor: pointer;
     
 }
