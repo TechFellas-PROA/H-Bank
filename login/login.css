@@ -71,7 +71,8 @@ section{
     position: relative;
     margin: auto;
     width: 33%;
-    height: 550px;
+    height: auto;
+    padding-bottom: 3%;
     background-color: azure ;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.23);
@@ -105,7 +106,7 @@ section h2{
 
 #enter{
     position: relative;
-    margin-top: 80px;
+    margin-top: 8px;
   
 }
 
