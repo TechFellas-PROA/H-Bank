@@ -15,7 +15,9 @@
     src: url(/fontes/Atomed/Atomed.otf);
 }
 
-
+html {
+    scroll-behavior: smooth;
+  }
 
 body{
     background-color: #f9f9f9;
