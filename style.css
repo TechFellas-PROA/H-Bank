@@ -361,3 +361,72 @@ div #boxregistro{
 button label {
     cursor: pointer;
 }
+
+footer{
+    font-family: Montserrat;
+    width: 100%;
+    height: auto;
+}
+
+#footerSuperior, #footerInferior{
+    width: 100%;
+}
+
+#footerSuperior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 250px;
+    background-color: #ececec;
+}
+
+#footerEsquerda{
+    padding-top: 20px;
+    padding-left: 20px; 
+    width: 30%;
+}
+
+#footerCentro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+#insideCentro{
+    display: flex;
+    height: 80%;
+}
+
+#nav1, #nav2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    gap: 40px;
+    width: 50%;
+    height: 100%;
+}
+
+#nav1 a, #nav2 a{
+    text-decoration: none;
+    color: #04d99d
+}
+
+#nav1{
+    border-right: 1px solid #bababa;
+}
+
+#nav2{
+    padding-left: 20px;
+}
+
+#footerDireita{
+    width: 30%;
+}
+
+#footerInferior{
+    height: 80px;
+    background-color: #202020dd;
+}
