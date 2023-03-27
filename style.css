@@ -93,10 +93,12 @@ div #boxregistro{
     border-radius: 3px;
 }
 
-#boxregistro:hover{
-    background-color: #fff;
+#boxlogin a:hover{
+    color: #000;
+    background-color: #06d39a;
     transition: 0.7s;
 }
+
 #boxregistro a:hover{
    color: #06d39a;
    background-color: #fff;
