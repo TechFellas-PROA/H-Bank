@@ -8,7 +8,9 @@
 body{
     background: rgb(4,217,157);
     background: linear-gradient(170deg, rgba(12, 167, 123, 0.541) 0%, rgba(62, 231, 146, 0.671) 100%);
+    height: 100%;
 }
+
 
 @font-face{
     font-family: Montserrat;
@@ -22,8 +24,9 @@ body{
 
 
 main{
-    position: fixed;
+    position: relative;
     width: 100%;
+    height: 100%;
 }
 
 header{
@@ -65,7 +68,8 @@ header h4{
 section{
     position: relative;
     margin: auto;
-    width: 33%;
+    width: 35%;
+    height: auto;
     padding-bottom: 1%;
     background-color: azure ;
     border-radius: 10px;
@@ -78,12 +82,11 @@ section{
 }
 
 section h2{
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     color: rgb(39, 39, 39);
     font-family: Montserrat;
-    font-size: 30px;
-    
+    font-size: 2vw;
 }
 
 .linha{
@@ -107,7 +110,6 @@ section h2{
 
 .one_input{
     position: relative;
-    margin-top: 80px;
     
 }
 
@@ -119,6 +121,7 @@ section h2{
 
 .one{
     width: 90%;
+    height: auto;
     display: flex;
     flex-direction: row;
     padding: 18px;
@@ -127,11 +130,12 @@ section h2{
     border-radius: 20px;
     background-color: rgba(240, 255, 255, 0.651);
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 .double{
     width: 40%;
+    height: auto;
     display: flex;
     flex-direction: row;
     padding: 15px;
@@ -140,7 +144,7 @@ section h2{
     border-radius: 20px;
     background-color: rgba(240, 255, 255, 0.651);
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 1.3vw;
     
     
 }
@@ -188,4 +192,55 @@ section p a{
 section p a:hover{
     color: #ffffff;
     transition: 0.4s;
+}
+
+@media only screen and (max-width:1066px) {
+    section {
+        width: 50%;
+    }
+
+    section h2 {
+        font-size: 3vw;
+    }
+
+    .one, .double {
+        font-size: 1.7vw;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    section {
+        width: 65%;
+    }
+
+    section h2 {
+        font-size: 4vw;
+    }
+
+    .one, .double {
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section{
+        width: 85%;
+    }
+
+    section h2 {
+        font-size: 5.5vw;
+    }
+
+    .one, .double {
+        font-size: 3.5vw;
+    }
+
+    header h4 {
+        font-size: 7vw;
+    }
+
+    .imagem {
+        width: 10vw;
+        height: auto;
+    }
 }
