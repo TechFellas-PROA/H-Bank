@@ -353,3 +353,85 @@ div #boxregistro{
 button label {
     cursor: pointer;
 }
+
+/*footer*/
+
+.footer{
+    width: 100%;
+    height: 15vh;
+    padding: 35px 0;
+    background-color: #ECECEC; 
+    font-size: 1.2rem;
+}
+
+.logo_left,
+.links_center,
+.social_icons_right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.logo_left{
+    width: 40%;
+    padding: 10px;
+}
+
+.logo_left a{
+    color: #04D99D;
+    text-decoration: none;
+}
+
+.links_center{
+    width: 35%;
+}
+
+.links_center a, ul{
+    display:inline-block;
+    line-height: 120%;
+    font-weight:400;
+	text-decoration: none;
+    list-style: none;
+	color: #04D99D;  
+}
+
+.vertical{
+    position:absolute;
+    border-left: 2px solid #BABABA;
+    height: 100px;
+    margin-top: -8vh;
+    left: 50%;
+}
+
+.social_icons_right{
+    width: 20%; 
+}
+
+.social_icons_right ul, i{
+    list-style: none;
+  
+}
+
+.fa-brands{
+    color: #000;
+}
+
+.social_icons_right ul,a:hover{
+    font-size: 120%; 
+}
+
+#copyright{
+    width: auto;
+    height: 5vh;
+    background-color: rgba(32, 32, 32, 0.85);
+    text-align: center;
+    color: #04D99D;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
