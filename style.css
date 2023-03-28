@@ -216,7 +216,7 @@ div #boxregistro{
 
 .box_inferior  {
     width: 20%;
-    height: 85%;
+    height: 82%;
     margin: auto;
     text-align: center;
     border: 0.5px solid #000;
@@ -224,48 +224,63 @@ div #boxregistro{
 }
 
 #box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
     background-color: #03FFC299;
 }
 
 #box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: #20F1BF8C;
 }
 
 #box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: #21DCE899;
 }
 
 #box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: #0DB0BA80;
 }
 
 .box_inferior img {
-    width: 15vw;
+    width: 12vw;
 }
 
 .box_inferior p {
-    font-size: 2.6vw;
+    font-size: 2vw;
+
 }
 
 #investimentos{
     position: relative;
     width: 80%;
     margin: auto;
-   
 }
 
 #investimentos h1{
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     padding-bottom: 100px;
     font-weight: light;
-    
 }
 
 #invest{
     display: flex;
     justify-content: space-around;
-    font-size: 25px;
+    font-size: 22px;
     align-items: center;
     color: #04d99d;
 }
@@ -339,7 +354,7 @@ div #boxregistro{
     display: flex;
     margin: auto;
     margin-top: 10vh;
-    margin-bottom: 50vh;
+    margin-bottom: 10vh;
 }
 
 #abra_conta a {
@@ -381,6 +396,8 @@ footer{
 }
 
 #footerEsquerda{
+    font-family: Atomed;
+    color: #04D99D;
     padding-top: 20px;
     padding-left: 20px; 
     width: 30%;
@@ -391,11 +408,12 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 50%;
 }
 
 #insideCentro{
     display: flex;
+    width: 70%;
     height: 80%;
 }
 
@@ -403,26 +421,31 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 25px;
     gap: 40px;
-    width: 50%;
+    width: 60%;
     height: 100%;
 }
 
 #nav1 a, #nav2 a{
     text-decoration: none;
-    color: #04d99d
+    color: #04d99d;
 }
 
 #nav1{
     border-right: 1px solid #bababa;
 }
 
-#nav2{
-    padding-left: 20px;
-}
+#nav2 h6{
+    font-weight: normal;
+}   
 
 #footerDireita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 30%;
 }
 
