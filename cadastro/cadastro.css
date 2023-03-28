@@ -231,10 +231,11 @@ section p a:hover{
 
     .one, .double {
         font-size: 3.5vw;
+        padding: 15px;
     }
 
     header h4, header h3 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .imagem {
