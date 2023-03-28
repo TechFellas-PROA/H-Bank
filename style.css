@@ -192,9 +192,101 @@ div #boxregistro{
     border-radius: var(--tamanho_borda) var(--tamanho_borda) 0 0;
 }
 
+#redondoBaixo h1 {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 3vw;
+    font-weight: light;
+}
+
 #redondoCima{
     top: 0px;
     border-radius: 0 0 var(--tamanho_borda) var(--tamanho_borda);
+}
+
+
+
+#investimentos{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+#invest{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2vw;
+    align-items: center;
+    color: #04d99d;
+}
+
+.icones {
+    width: 10vw;
+}
+
+#article1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5vw;     
+}
+
+#texto_invest{
+    font-size: 2vw;
+    width: 200%;
+    margin-top: 125px;
+    text-align: center;
+    
+}
+
+#texto_invest button{
+    margin-top: 30vh;
+    width: 55%;
+    background-color: #0D946E;
+    border: 1px solid #04D99D;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 2vw;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+#article2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    gap: 10vw;
+}
+
+#article2 h3 {
+    text-align: right;
+    font-size: 2.5vw;
+    margin-bottom: 15vh;
+}
+
+.invista_meio div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    gap: 1vw;
+}
+
+.invista_meio img {
+    width: 5vw;
+    border-radius: 100%;
+}
+
+.invista_meio h4 {
+    font-size: 1.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img_maior img {
+    width: 40vw;
 }
 
 #h1_inferior {
@@ -264,92 +356,6 @@ div #boxregistro{
 
 }
 
-#investimentos{
-    position: relative;
-    width: 80%;
-    margin: auto;
-}
-
-#investimentos h1{
-    text-align: center;
-    font-size: 3vw;
-    padding-bottom: 100px;
-    font-weight: light;
-}
-
-#invest{
-    display: flex;
-    justify-content: space-around;
-    font-size: 22px;
-    align-items: center;
-    color: #04d99d;
-}
-
-#article1{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    gap: 5vw;     
-}
-
-#texto_invest{
-    font-size: 2vw;
-    width: 200%;
-    margin-top: 125px;
-    text-align: center;
-    
-}
-
-#texto_invest button{
-    margin-top: 30vh;
-    width: 55%;
-    background-color: #0D946E;
-    border: 1px solid #04D99D;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 2vw;
-    padding: 10px;
-    cursor: pointer;
-    
-}
-
-#article2 {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    gap: 10vw;
-}
-
-#article2 h3 {
-    text-align: right;
-    font-size: 2.5vw;
-    margin-bottom: 15vh;
-}
-
-.invista_meio div {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8%;
-    gap: 1vw;
-}
-
-.invista_meio img {
-    width: 5vw;
-    border-radius: 100%;
-}
-
-.invista_meio h4 {
-    font-size: 1.7vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#img_maior img {
-    width: 40vw;
-}
-
 #abra_conta {
     display: flex;
     margin: auto;
@@ -361,6 +367,8 @@ div #boxregistro{
     position: relative;
     cursor: pointer;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 40%;
     height: 10vh;
@@ -450,6 +458,6 @@ footer{
 }
 
 #footerInferior{
-    height: 80px;
+    height: 60px;
     background-color: #202020dd;
 }
