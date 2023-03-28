@@ -31,7 +31,6 @@ main{
 
 header{
     margin: auto;
-    /* background-color: red; */
     width: 90%;
     height: 100px;
     display: flex;
@@ -192,6 +191,7 @@ section p a:hover{
     #enter input {
         font-size: 2.5vw;
     }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -204,11 +204,12 @@ section p a:hover{
     }
 
     #enter input {
-        font-size: 3.5vw;
+        font-size: 4vw;
+        padding: 15px;
     }
 
     header h4, header h3 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .imagem {

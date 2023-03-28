@@ -32,7 +32,6 @@ main{
 
 header{
     margin: auto;
-    /* background-color: red; */
     width: 90%;
     display: flex;
     align-items: center;
