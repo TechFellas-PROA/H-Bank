@@ -233,7 +233,7 @@ div #boxregistro{
 
 #texto_invest{
     font-size: 2vw;
-    width: 200%;
+    width: 100%;
     margin-top: 125px;
     text-align: center;
     
@@ -249,7 +249,10 @@ div #boxregistro{
     font-size: 2vw;
     padding: 10px;
     cursor: pointer;
-    
+}
+
+#article1 img {
+    width: 40vw;
 }
 
 #article2 {
