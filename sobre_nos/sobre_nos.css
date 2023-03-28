@@ -312,3 +312,89 @@ input {
 }
 
 /* --- Plus fim -- */
+
+
+footer{
+    font-family: Montserrat;
+    margin-top: 15vh;
+    width: 100%;
+    height: auto;
+}
+
+#footerSuperior, #footerInferior{
+    width: 100%;
+}
+
+#footerSuperior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 250px;
+    background-color: #ececec;
+}
+
+#footerEsquerda{
+    font-family: Atomed;
+    color: #04D99D;
+    padding-top: 20px;
+    padding-left: 20px; 
+    width: 30%;
+}
+
+#footerCentro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#insideCentro{
+    display: flex;
+    width: 70%;
+    height: 80%;
+}
+
+#nav1, #nav2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    gap: 40px;
+    width: 60%;
+    height: 100%;
+}
+
+#nav1 a, #nav2 a{
+    text-decoration: none;
+    color: #04d99d;
+}
+
+#nav1{
+    border-right: 1px solid #bababa;
+}
+
+#nav2 h6{
+    font-weight: normal;
+}   
+
+#footerDireita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+#footerInferior{
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #202020dd;
+    color: #04d99d;
+    font-weight: normal;
+}

@@ -150,12 +150,13 @@ div #boxregistro{
     
 }
 
-#vantagens h1{
-    font-size: 40px;
+#vantagens h2{
+    font-size: 3vw;
+    font-family: Atomed;
 }
 
 #vantagens p{
-    font-size: 25px;
+    font-size: 2vw;
     color: #E5E5E5;
 }
 
@@ -164,13 +165,16 @@ div #boxregistro{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 200px;
+    gap: 20%;
     align-items: center;
     width: 100%;
     height: 100%;
     padding: 0 10% 0 10%;
     box-sizing: border-box;
-    
+}
+
+#vantagens img {
+    width: 30vw;
 }
 
 
@@ -249,6 +253,13 @@ div #boxregistro{
     font-size: 2vw;
     padding: 10px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+#texto_invest button:hover {
+    opacity: 75%;
+    transition: 1s;
+    color: #000;
 }
 
 #article1 img {
@@ -272,7 +283,7 @@ div #boxregistro{
 .invista_meio div {
     display: flex;
     flex-direction: row;
-    margin-top: 8%;
+    margin-top: 5%;
     gap: 1vw;
 }
 
@@ -295,6 +306,7 @@ div #boxregistro{
 #h1_inferior {
     width: 70%;
     margin: auto;
+    margin-top: 10vh;
     text-align: center;
     font-size: 2.2vw;
 }
@@ -303,7 +315,7 @@ div #boxregistro{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 10vh;
+    margin-top: 12vh;
     width: 100%;
     height: 400px;
     background-color: rgb(255, 255, 255);
@@ -382,10 +394,13 @@ div #boxregistro{
     margin: auto;
     font-size: 3vw;
     text-decoration: none;
+    transition: 0.5s;
 }
 
-button label {
-    cursor: pointer;
+#abra_conta a:hover {
+    opacity: 75%;
+    transition: 1s;
+    color: #000;
 }
 
 footer{
@@ -461,6 +476,13 @@ footer{
 }
 
 #footerInferior{
-    height: 60px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #202020dd;
+    color: #04d99d;
+    font-weight: normal;
 }
