@@ -241,7 +241,8 @@ div #boxregistro{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    gap: 5vw;     
+    gap: 5vw;
+    margin-top: 15vh;
 }
 
 #texto_invest{
@@ -275,6 +276,10 @@ div #boxregistro{
     width: 40vw;
 }
 
+#imagem_idosos {
+    display: none;
+}
+
 #article2 {
     width: 90%;
     display: flex;
@@ -300,7 +305,8 @@ div #boxregistro{
 #article2 h3 {
     text-align: right;
     font-size: 2.5vw;
-    margin-bottom: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 }
 
 .invista_meio div {
@@ -404,14 +410,14 @@ div #boxregistro{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
-    height: 10vh;
+    width: 35%;
+    height: 8vh;
     background-color: #0D946E;
     border: 1px solid #04D99D;
     border-radius: 20px;
     color: #fff;
     margin: auto;
-    font-size: 3vw;
+    font-size: 2.7vw;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -509,6 +515,23 @@ footer{
 
 @media only screen and (max-width:1066px) {
 
+    #article1 {
+        gap: 3vw;
+    }
+
+    #texto_invest {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #texto_invest button {
+        margin-top: 10vh;
+        width: auto;
+        padding: 5px 45px;
+        font-size: 25px;
+    }
+
     #article2 {
         width: 90%;
         gap: 3vw;
@@ -550,6 +573,23 @@ footer{
 
 @media only screen and (max-width: 720px) {
 
+    #investimentos {
+        width: 90%;
+    }
+
+    #article1 {
+        margin-top: 15px;
+        gap: 2vw;
+    }
+
+    #texto_invest {
+        font-size: 3.5vw;
+    }
+
+    #texto_invest button {
+        font-size: 20px;
+    }
+
     #article2 {
         gap: 2vw;
     }
@@ -564,6 +604,10 @@ footer{
 
     .box_inferior p {
         font-size: 2.8vw;
+    }
+
+    #abra_conta a {
+        font-size: 4vw;
     }
 
     #footerEsquerda {
@@ -585,6 +629,23 @@ footer{
 }
 
 @media only screen and (max-width: 480px) {
+
+    #texto_invest {
+        font-size: 18px;
+    }
+    #imagem_idosos1 {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #imagem_idosos2 {
+        display: none;
+    }
+
+    #texto_invest button {
+        margin-top: 35px;
+    }
+    
 
     #img_maior {
         display: none;
