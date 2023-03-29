@@ -27,6 +27,17 @@ body{
     font-family: Montserrat;
 }
 
+#botaoTema{
+    position: fixed;
+    background-color: #04D99D;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    top: 60px;
+    right: 20px;
+}
+
 header{
     margin: auto;
     align-items: center;
