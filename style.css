@@ -541,17 +541,25 @@ footer{
 
 @media only screen and (max-width: 480px) {
 
+    #h1_inferior {
+        font-size: 14px;
+    }
     .box_inferior p {
-        font-size: 3vw;
+        font-size: 15px;
     }
 
     #inferior {
-        width: 75%;
+        width: 80%;
         margin: auto;
         display: block;
     }
+
     .box_inferior {
         width: 40%;
+        padding: 40px 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
     }
 
     #box1, #box3 {
@@ -565,6 +573,12 @@ footer{
     #abra_conta {
         clear: both;
     }
+
+    #abra_conta a {
+        width: 200px;
+        font-size: 20px;
+    }
+
 
     footer {
         height: 420px;
