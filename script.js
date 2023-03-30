@@ -15,9 +15,11 @@ function mudarTema(){
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #fff";
                 document.getElementById(`investimento${i+1}`).style.backgroundColor="#262626";
+                document.getElementsByClassName("imageBox")[i].style.cssText="filter: invert(1);"
             }
             for (i=0; i<=4; i++){
-                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1)";
+                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1).";
+                
             }
             lastTheme = "#262626";
             break
@@ -31,6 +33,7 @@ function mudarTema(){
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #000";
                 document.getElementById(`investimento${i+1}`).style.backgroundColor="#fff";
+                document.getElementsByClassName("imageBox")[i].style.cssText="filter: invert(0);"
             }
             for (i=0; i<=4; i++){
                 document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(0)";
