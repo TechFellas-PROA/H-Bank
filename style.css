@@ -540,7 +540,7 @@ footer{
     }
 
     #conteudoVantagens p {
-        font-size: 2.8vw;
+        font-size: 2.7vw;
     }
     
     .icones {
@@ -622,11 +622,11 @@ footer{
         width: 36vw;
     }
     #conteudoVantagens h2 {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     #conteudoVantagens p {
-        font-size: 3.2vw;
+        font-size: 3.1vw;
     }
 
     #invest {
@@ -737,8 +737,12 @@ footer{
         font-size: 3.7vw;
     }
 
-    #redondoCima.meioRedondo {
+    #redondoCima.meioRedondo, #redondoBaixo.meioRedondo {
         height: 150px;
+    }
+
+    #vantagens {
+        height: 800px;
     }
 
     #invest_responsivo {
