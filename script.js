@@ -10,11 +10,12 @@ function mudarTema(){
             document.getElementById("redondoCima").style.backgroundColor="#262626";
             document.getElementById("redondoBaixo").style.backgroundColor="#262626";
             document.getElementById("cabecalho").style.backgroundColor="#00000000";
+            document.getElementById("invest_responsivo").style.backgroundColor="#262626"
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #fff";
             }
             for (i=0; i<=4; i++){
-                document.getElementsByClassName("icones")
+                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1)"
             }
             lastTheme = "#262626"
             break
@@ -23,9 +24,13 @@ function mudarTema(){
             document.querySelector("body").style.cssText="background-color: #fff; color: #000";
             document.getElementById("redondoCima").style.backgroundColor="#fff";
             document.getElementById("redondoBaixo").style.backgroundColor="#fff";
-            document.getElementById("cabecalho").style.backgroundColor="#e5e5e5"
+            document.getElementById("cabecalho").style.backgroundColor="#e5e5e5";
+            document.getElementById("invest_responsivo").style.backgroundColor="#fff"
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #000";
+            }
+            for (i=0; i<=4; i++){
+                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(0)"
             }
             lastTheme = "#fff"
             break
