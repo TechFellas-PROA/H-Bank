@@ -23,11 +23,14 @@ function mudarTema(){
         case "#fff":
             document.querySelector("body").style.cssText="background-color: #262626; color: #fff";
             document.querySelector(".trajetoria").style.cssText="background-color: #262626; color:#fff";
+            document.querySelector(".plus").style.backgroundColor="#262626";
+            document.querySelector("#footerSuperior").style.backgroundColor="#262626";
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linha")[i].style.cssText="border-color: #fff";
             }
-            document.querySelector(".plus").style.backgroundColor="#262626";
-            document.querySelector("#footerSuperior").style.backgroundColor="#262626";
+            for (i=0; i<=4; i++){
+                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1)";
+            }
             lastTheme = "#262626";
             break;
 
@@ -35,12 +38,15 @@ function mudarTema(){
             console.log("teste")
             document.querySelector("body").style.cssText="background-color: #fff; color: #000";
             document.querySelector(".trajetoria").style.cssText="background-color: #fff; color:#000";
-            for (i=0; i<=3; i++){
-                document.getElementsByClassName("linha")[i].style.cssText="border-color: #000";
-            }
             document.querySelector(".plus").style.backgroundColor="#fff";
             document.querySelector("#footerSuperior").style.backgroundColor="#ececec";
             lastTheme = "#fff";
+            for (i=0; i<=3; i++){
+                document.getElementsByClassName("linha")[i].style.cssText="border-color: #000";
+            }
+            for (i=0; i<=4; i++){
+                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(0)";
+            }
             break;
     }
 }
