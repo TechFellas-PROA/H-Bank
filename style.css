@@ -227,8 +227,6 @@ div #boxregistro{
     border-radius: 0 0 var(--tamanho_borda) var(--tamanho_borda);
 }
 
-
-
 #investimentos{
     position: relative;
     width: 80%;
@@ -293,6 +291,20 @@ div #boxregistro{
     gap: 10vw;
 }
 
+#img_maior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img_maior img {
+    width: 40vw;
+}
+
+#imagem_responsivo {
+    display: none;
+}
+
 #article2 h3 {
     text-align: right;
     font-size: 2.5vw;
@@ -318,10 +330,6 @@ div #boxregistro{
     justify-content: center;
 }
 
-#img_maior img {
-    width: 40vw;
-}
-
 #h1_inferior {
     width: 70%;
     margin: auto;
@@ -334,7 +342,7 @@ div #boxregistro{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 12vh;
+    margin-top: 10vh;
     width: 100%;
     height: auto;
     /*background-color: rgb(255, 255, 255);*/
@@ -508,6 +516,31 @@ footer{
 
 @media only screen and (max-width:1066px) {
 
+    #article2 {
+        width: 90%;
+        gap: 3vw;
+    }
+
+    #img_maior img {
+        width: 50vw;
+    }
+
+    #article2 h3 {
+        font-size: 4vw;
+    }
+
+    .invista_meio img {
+        width: 7vw;
+    }
+
+    .invista_meio h4 {
+        font-size: 25px;
+    }
+    
+    #h1_inferior {
+        font-size: 2.8vw;
+    }
+
     .box_inferior p {
         font-size: 2.5vw;
     }
@@ -523,6 +556,18 @@ footer{
 }
 
 @media only screen and (max-width: 720px) {
+
+    #article2 {
+        gap: 2vw;
+    }
+    
+    #article2 h3 {
+        font-size: 4.5vw;
+    }
+
+    .invista_meio h4 {
+        font-size: 20px;
+    }
 
     .box_inferior p {
         font-size: 2.8vw;
@@ -548,17 +593,54 @@ footer{
 
 @media only screen and (max-width: 480px) {
 
+    #img_maior {
+        display: none;
+    }
+
+    #article2 {
+        margin-top: 40px;
+        width: 70%;
+    }
+
+    #article2 h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #imagem_responsivo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #imagem_responsivo img {
+        width: 65vw;
+    }
+
+    .invista_meio div {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    #h1_inferior {
+        font-size: 14px;
+    }
     .box_inferior p {
-        font-size: 3vw;
+        font-size: 15px;
     }
 
     #inferior {
-        width: 75%;
+        width: 80%;
         margin: auto;
         display: block;
     }
+
     .box_inferior {
         width: 40%;
+        padding: 40px 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
     }
 
     #box1, #box3 {
@@ -572,6 +654,12 @@ footer{
     #abra_conta {
         clear: both;
     }
+
+    #abra_conta a {
+        width: 200px;
+        font-size: 20px;
+    }
+
 
     footer {
         height: 420px;
