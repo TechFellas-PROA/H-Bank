@@ -29,13 +29,21 @@ body{
 
 #botaoTema{
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #04D99D;
     border-radius: 50px;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     z-index: 3;
     top: 60px;
     right: 20px;
+    cursor: pointer;
+}
+
+#botaoTema{
+    margin: auto;
 }
 
 header{
@@ -95,6 +103,7 @@ div #boxlogin{
     background-color: #fff;
     padding: 6px 50px 6px 50px;
     border-radius: 3px;
+    transition: 0.7s;
 }
 
 div #boxregistro{
@@ -107,23 +116,22 @@ div #boxregistro{
     background-color: #06d39a;
     padding: 6px 30px 6px 30px;
     border-radius: 3px;
+    transition: 0.7s
 }
 
 #boxlogin a:hover{
     color: #000;
     background-color: #06d39a;
-    transition: 0.7s;
 }
 
 #boxregistro a:hover{
    color: #06d39a;
    background-color: #fff;
-   transition: 0.7s;
 }
 
 #resumo{
     display: flex;
-    width: 100%;
+    width: 100%;    
     flex-direction: row;
 }
 
@@ -343,7 +351,7 @@ div #boxregistro{
     margin-top: 10vh;
     width: 100%;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
 }
 
 .box_inferior  {
@@ -443,7 +451,6 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     height: 250px;
-    background-color: #ececec;
 }
 
 #footerEsquerda{

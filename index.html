@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>h-bank</title>
 
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
-<body>
-  <input id="botaoTema" type="button" value="h" onclick="mudarTema()">
-  <header>
+<body id="corpo">
+  <div id="botaoTema" onclick="mudarTema()">
+    <img src="assets/icons/circle-half-stroke-solid.svg" width="90%" alt="botaoTema">
+  </div>
+  <header id="cabecalho">
       <div id="boxlogo">
         <h1>h-bank</h1>
       </div>
 
       <div id="boxlinks_header">
-        <a id="linkAtual" href="">Home</a>
-        <a href="/sobre_nos/sobre_nos.html">Sobre nós</a>
-        <a href="#investimentos">Serviços</a>
-        <a href="#footerSuperior">Fale Conosco</a>
+        <a class="linksHeader" id="linkAtual" href="#">Home</a>
+        <a class="linksHeader" href="/sobre_nos/sobre_nos.html">Sobre nós</a>
+        <a class="linksHeader" href="#investimentos">Serviços</a>
+        <a class="linksHeader" href="#footerSuperior">Fale Conosco</a>
       </div>
 
       <div id="boxcadastro">
@@ -52,8 +55,8 @@
       </div>
     </div>
     <div id="separator">
-      <div id="redondoCima"></div>
-      <div id="redondoBaixo">
+      <div class="meioRedondo" id="redondoCima"></div>
+      <div class="meioRedondo" id="redondoBaixo">
         <h1>Investimentos</h1>
         <div id="invest_responsivo">
           <div>
@@ -180,7 +183,7 @@
         </div>
       </div>
       <div class="insideFooter" id="footerDireita">
-        <a href="#"><img width="30px" src="assets/icons/square-instagram.svg"></a>
+        <a href="https://www.instagram.com/hbank.co/"><img width="30px" src="assets/icons/square-instagram.svg"></a>
         <a href="https://github.com/TechFellas-PROA/H-Bank" target="blank"><img width="30px" src="assets/icons/github.svg"></a>
         <a href="#"><img width="30px" src="assets/icons/linkedin.svg"></a>
         <a href="#"><img width="30px" src="assets/icons/facebook.svg"></a>
