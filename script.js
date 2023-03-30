@@ -12,6 +12,9 @@ function mudarTema(){
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #fff";
             }
+            for (i=0; i<=4; i++){
+                document.getElementsByClassName("icones")
+            }
             lastTheme = "#262626"
             break
         
