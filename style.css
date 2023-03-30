@@ -53,7 +53,6 @@ header{
     height: 60px;
     background-color: #E5E5E5;
     display: flex;
-    
 }
 
 header #boxlogo{
@@ -136,7 +135,7 @@ div #boxregistro{
 }
 
 #resumo div{
-    height: 700px;
+    height: 800px;
 }
 
 #texto_resumo{
@@ -528,6 +527,10 @@ footer{
 
 @media only screen and (max-width:1066px) {
 
+    #resumo div{
+        height: 550px;
+    }
+
     #redondoBaixo h1 {
         font-size: 6vw;
     }
@@ -606,6 +609,10 @@ footer{
 }
 
 @media only screen and (max-width: 720px) {
+
+    #resumo div{
+        height: 400px;
+    }
 
     #conteudoVantagens {
         gap: 10%;
@@ -708,6 +715,10 @@ footer{
 }
 
 @media only screen and (max-width: 480px) {
+
+    #resumo div{
+        height: 280px;
+    }
 
     #invest_responsivo {
         
