@@ -276,7 +276,7 @@ div #boxregistro{
     width: 40vw;
 }
 
-#imagem_idosos {
+#imagem_idosos1 {
     display: none;
 }
 
@@ -298,7 +298,7 @@ div #boxregistro{
     width: 40vw;
 }
 
-#imagem_responsivo {
+#imagem_responsivo, #invest_responsivo {
     display: none;
 }
 
@@ -515,6 +515,20 @@ footer{
 
 @media only screen and (max-width:1066px) {
 
+    #redondoBaixo h1 {
+        font-size: 6vw;
+    }
+
+    
+    
+    .icones {
+        width: 11vw;
+    }
+
+    #invest h3 {
+        font-size: 3vw;
+    }
+
     #article1 {
         gap: 3vw;
     }
@@ -573,12 +587,42 @@ footer{
 
 @media only screen and (max-width: 720px) {
 
+    #invest {
+        display: none;
+    }
+
+    #redondoBaixo {
+        margin-bottom: 50px;
+    }
+
+    #invest_responsivo {
+        display: flex;
+        justify-content: space-around;
+        font-size: 2.5vw;
+        margin-top: 5vh;
+        color: #04d99d;
+    }
+
+    #invest_responsivo div {
+        position: relative;
+        width: auto;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #invest_responsivo .icones {
+        width: 10vw;
+        margin: auto;
+        height: auto;
+    }
+
     #investimentos {
         width: 90%;
     }
 
     #article1 {
-        margin-top: 15px;
+        margin-top: 5vh;
         gap: 2vw;
     }
 
@@ -630,14 +674,20 @@ footer{
 
 @media only screen and (max-width: 480px) {
 
+    #invest_responsivo {
+        
+    }
+
     #texto_invest {
         font-size: 18px;
     }
+
     #imagem_idosos1 {
         display: block;
         margin: auto;
         margin-top: 20px;
     }
+
     #imagem_idosos2 {
         display: none;
     }
@@ -645,14 +695,13 @@ footer{
     #texto_invest button {
         margin-top: 35px;
     }
-    
 
     #img_maior {
         display: none;
     }
 
     #article2 {
-        margin-top: 40px;
+        margin-top: 5px;
         width: 70%;
     }
 
@@ -705,8 +754,13 @@ footer{
         float: right;
     }
 
+    #box3, #box4 {
+        margin-bottom: 5vh;
+    }
+
     #abra_conta {
         clear: both;
+        margin-bottom: 5vh;
     }
 
     #abra_conta a {
