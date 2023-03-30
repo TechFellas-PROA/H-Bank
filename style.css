@@ -8,6 +8,18 @@
     src: url(/fontes/Atomed/Atomed.otf);
 }
 
+@keyframes animate{
+    from{
+        width: 60px;
+        height: 60px;
+    }
+
+    to{
+        width: 70px;
+        height: 70px;
+    }
+}
+
 :root{
     --tamanho_borda: 100%;
 }
@@ -40,10 +52,21 @@ body{
     top: 60px;
     right: 20px;
     cursor: pointer;
+    transition: 0.5s;
+    transition: 0.5s;
 }
 
-#botaoTema{
-    margin: auto;
+#botaoTema:hover{
+    width: 80px;
+    height: 80px;
+}
+
+#botaoTema:active{
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
 
 header{
