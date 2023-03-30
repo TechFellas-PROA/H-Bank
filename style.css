@@ -162,12 +162,12 @@ div #boxregistro{
     align-items: end;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column-reverse;
-
+    flex-direction: column;
 }
 
 #modelo img {
     width: 45vw;
+    z-index: 2;
 }
 
 #vantagens{
