@@ -135,7 +135,7 @@ div #boxregistro{
 }
 
 #resumo div{
-    height: 720px;
+    height: 760px;
 }
 
 #texto_resumo{
@@ -716,16 +716,37 @@ footer{
 
 @media only screen and (max-width: 480px) {
 
+    #modelo {
+        justify-content: center;
+    }
+
     #resumo div{
         height: 280px;
     }
 
-    #redondoCima.meioRedondo, # {
+    #conteudoVantagens {
+        gap: 5%;
+    }
+
+    #conteudoVantagens h2 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    #conteudoVantagens p {
+        font-size: 3.7vw;
+    }
+
+    #redondoCima.meioRedondo {
         height: 150px;
     }
 
     #invest_responsivo {
-        
+        font-size: 3vw;
+    }
+
+    .icones {
+        width: 15vw;
     }
 
     #texto_invest {
@@ -750,9 +771,15 @@ footer{
         display: none;
     }
 
+    #article1 {
+        margin-top: 2vh;
+        gap: 1vw;
+    }
+
     #article2 {
         margin-top: 5px;
         width: 70%;
+        gap: 1vw;
     }
 
     #article2 h3 {
