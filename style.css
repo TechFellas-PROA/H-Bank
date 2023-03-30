@@ -20,7 +20,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body{
     width: 100%;
@@ -153,13 +153,19 @@ div #boxregistro{
     color: #04d99d;
 }
 
-#modelo{
+#modelo {
     width: 60%;
-    background-image: url(/assets/Modelo.png);
-    background-repeat: no-repeat;
-    background-position: 0px -50px;
+    margin: auto;
     align-self: flex-start;
+    align-items: center;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#modelo img {
+    width: 45vw;
 }
 
 #vantagens{
@@ -526,7 +532,13 @@ footer{
         font-size: 6vw;
     }
 
-    
+    #conteudoVantagens h2 {
+        font-size: 40px;
+    }
+
+    #conteudoVantagens p {
+        font-size: 2.8vw;
+    }
     
     .icones {
         width: 11vw;
@@ -537,6 +549,7 @@ footer{
     }
 
     #article1 {
+        margin-top: 100px;
         gap: 3vw;
     }
 
@@ -593,6 +606,21 @@ footer{
 }
 
 @media only screen and (max-width: 720px) {
+
+    #conteudoVantagens {
+        gap: 10%;
+    }
+
+    #conteudoVantagens img {
+        width: 36vw;
+    }
+    #conteudoVantagens h2 {
+        font-size: 40px;
+    }
+
+    #conteudoVantagens p {
+        font-size: 3.2vw;
+    }
 
     #invest {
         display: none;
