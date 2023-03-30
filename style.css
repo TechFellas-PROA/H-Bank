@@ -135,7 +135,7 @@ div #boxregistro{
 }
 
 #resumo div{
-    height: 800px;
+    height: 720px;
 }
 
 #texto_resumo{
@@ -156,11 +156,11 @@ div #boxregistro{
     width: 60%;
     margin: auto;
     align-self: flex-start;
-    align-items: center;
+    align-items: end;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column-reverse;
+
 }
 
 #modelo img {
@@ -718,6 +718,10 @@ footer{
 
     #resumo div{
         height: 280px;
+    }
+
+    #redondoCima.meioRedondo, # {
+        height: 150px;
     }
 
     #invest_responsivo {
