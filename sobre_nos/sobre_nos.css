@@ -41,6 +41,10 @@ font-family: Montserrat;
     transition: 0.5s;
 }
 
+#botaoTema img{
+    width: 90% !important;
+}
+
 #botaoTema:hover{
     width: 80px;
     height: 80px;
