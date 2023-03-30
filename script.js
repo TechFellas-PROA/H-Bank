@@ -11,15 +11,13 @@ function mudarTema(){
             document.getElementById("redondoBaixo").style.backgroundColor="#262626";
             document.getElementById("cabecalho").style.backgroundColor="#00000000";
             document.getElementById("invest_responsivo").style.backgroundColor="#262626"
-            document.getElementById("botaoTema").style.animationName="animate"
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #fff";
                 document.getElementById(`investimento${i+1}`).style.backgroundColor="#262626";
                 document.getElementsByClassName("imageBox")[i].style.cssText="filter: invert(1);"
             }
             for (i=0; i<=4; i++){
-                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1).";
-                
+                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1);";
             }
             lastTheme = "#262626";
             break
