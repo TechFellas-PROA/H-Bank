@@ -25,6 +25,32 @@ width: 100%;
 font-family: Montserrat;
 }
 
+#botaoTema{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #04D99D;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#botaoTema img{
+    width: 90% !important;
+}
+
+#botaoTema:hover{
+    width: 80px;
+    height: 80px;
+    transform: translatex(5px);
+}
+
 #img_backgraud{
 width: 100%;
 height: 124vh;
@@ -42,6 +68,7 @@ padding: 0;
 margin: 0;
 border: 0;
 }
+
 header{
 width: 100%;
 height: 60px;
