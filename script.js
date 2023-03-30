@@ -14,6 +14,7 @@ function mudarTema(){
             document.getElementById("botaoTema").style.animationName="animate"
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #fff";
+                document.getElementById(`investimento${i+1}`).style.backgroundColor="#262626";
             }
             for (i=0; i<=4; i++){
                 document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1)";
@@ -29,6 +30,7 @@ function mudarTema(){
             document.getElementById("invest_responsivo").style.backgroundColor="#fff";
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #000";
+                document.getElementById(`investimento${i+1}`).style.backgroundColor="#fff";
             }
             for (i=0; i<=4; i++){
                 document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(0)";

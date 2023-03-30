@@ -8,18 +8,6 @@
     src: url(/fontes/Atomed/Atomed.otf);
 }
 
-@keyframes animate{
-    from{
-        width: 60px;
-        height: 60px;
-    }
-
-    to{
-        width: 70px;
-        height: 70px;
-    }
-}
-
 :root{
     --tamanho_borda: 100%;
 }
@@ -53,14 +41,13 @@ body{
     right: 20px;
     cursor: pointer;
     transition: 0.5s;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-direction: alternate;
 }
 
 #botaoTema:hover{
     width: 80px;
     height: 80px;
+    transform: translatex(5px);
+    transform: translatey(5px);
 }
 
 header{
@@ -86,8 +73,8 @@ header  #boxlinks_header{
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-      
 }
+
 #boxlinks_header a{
     text-decoration: none; 
     color: #000;
