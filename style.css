@@ -53,20 +53,14 @@ body{
     right: 20px;
     cursor: pointer;
     transition: 0.5s;
-    transition: 0.5s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
 
 #botaoTema:hover{
     width: 80px;
     height: 80px;
-}
-
-#botaoTema:active{
-    animation-name: pulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
 }
 
 header{

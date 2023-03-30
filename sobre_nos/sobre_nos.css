@@ -4,219 +4,213 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+  
 @font-face{
-    font-family: Montserrat;
-    src: url(/fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+font-family: Montserrat;
+src: url(/fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face{
-    font-family: Atomed;
-    src: url(/fontes/Atomed/Atomed.otf);
+font-family: Atomed;
+src: url(/fontes/Atomed/Atomed.otf);
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+scroll-behavior: smooth;
+}
 
 body{
-    background-color: #f9f9f9;
-    width: 100%;
-    font-family: Montserrat;
+background-color: #f9f9f9;
+width: 100%;
+font-family: Montserrat;
 }
 
 #img_backgraud{
-    width: 100%;
-    height: 124vh;
+width: 100%;
+height: 124vh;
 }
 
 img{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    z-index: -1;
+position: absolute;
+width: 100%;
+height: auto;
+z-index: -1;
 }
 
 *{
-    padding: 0;
-    margin: 0;
-    border: 0;
+padding: 0;
+margin: 0;
+border: 0;
 }
 header{
-    width: 100%;
-    height: 60px;
-    background-color: #00000044;
-    display: flex;
-    align-items: center;
-
+width: 100%;
+height: 60px;
+background-color: #00000044;
+display: flex;
+align-items: center;
 }
 header #boxlogo{
-    color: #fff;
-    font-size: 20px;
-    margin-left: 20px;
-    font-family: Atomed;
-    
-
+color: #fff;
+font-size: 20px;
+margin-left: 20px;
+font-family: Atomed;
 }
 header #boxlinks_header{
-    width: 50%;
-    margin: auto;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
+width: 50%;
+margin: auto;
+font-size: 20px;
+display: flex;
+justify-content: space-between;
 }
 
 #boxlinks_header a{
-    text-decoration: none;
-    color: #ffffff;
+text-decoration: none;
+color: #ffffff;
 }
 
 #boxlinks_header a:hover{
-    border-bottom: solid 1px;
-    
+border-bottom: solid 1px;
 }
 
- #boxcadastro{
-    width: auto;
-    align-items: center;
-    display: flex;
-    padding: 10px;
-    font-family: Montserrat;
+#boxcadastro{
+width: auto;
+align-items: center;
+display: flex;
+padding: 10px;
+font-family: Montserrat;
 }
 
 div #boxlogin{
-    margin-right: 20px;   
+margin-right: 20px;
 }
 
 #boxlogin a{
-    text-decoration: none;
-    color: #06d39a;
-    background-color: #fff;
-    padding: 6px 50px 6px 50px;
-    border-radius: 3px;
+text-decoration: none;
+color: #06d39a;
+background-color: #fff;
+padding: 6px 50px 6px 50px;
+border-radius: 3px;
 }
 #page_atual{
-    border-bottom: solid 0.5px;
+border-bottom: solid 0.5px;
 }
 
 div #boxregistro{
-    margin-right: 20px;
+margin-right: 20px;
 }
 
 #boxregistro a{
-    text-decoration: none;
-    color: #000;
-    background-color: #06d39a;
-    padding: 6px 30px 6px 30px;
-    border-radius: 3px;
+text-decoration: none;
+color: #000;
+background-color: #06d39a;
+padding: 6px 30px 6px 30px;
+border-radius: 3px;
 }
 div #boxregistro:hover{
-     background-color: #fff;
-     transition: 0.7s;
+background-color: #fff;
+transition: 0.7s;
 }
 #boxregistro a:hover{
-    color: #06d39a;
-    background-color: #fff;
-    transition: 0.7s;
+color: #06d39a;
+background-color: #fff;
+transition: 0.7s;
 }
 
 div #boxlogin:hover{
-    background-color: #06d39a;
-    transition: 0.7;
+background-color: #06d39a;
+transition: 0.7;
 }
 
 #boxlogin a:hover{
-    color: #000;
-    background-color: #06d39a;
-    transition: 0.7s;
-   
+color: #000;
+background-color: #06d39a;
+transition: 0.7s;
 }
 
 /* --- Trajetoria inicio -- */
 
 .trajetoria {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 50px;
-    width: 100%;
-    height: 100vh;
-    background-color: #f9f9f9;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-bottom: 50px;
+width: 100%;
+height: 100vh;
+background-color: #f9f9f9;
 }
 
 #boxtitulo_sobre_nos{
-   font-family: Montserrat;
-   align-items: center;
-   align-self: center;
-   font-size: 40px;
-   margin-top: 3%;
+font-family: Montserrat;
+align-items: center;
+align-self: center;
+font-size: 40px;
+margin-top: 3%;
 }
 
 .green_titulo{
-    color: #06d39a;
-    font-family: Montserrat;
+color: #06d39a;
+font-family: Montserrat;
 }
 
 #botao {
-    width: 50%;
-    display: flex;
-    align-self: center;
-    justify-content: space-around;
+width: 50%;
+display: flex;
+align-self: center;
+justify-content: space-around;
 }
 
 input {
-   background-color: #8d9292;
-   padding: 20px 15px 20px 15px;
-   border-radius: 30px;
-   transition: 0.2s;
+background-color: #8d9292;
+padding: 20px 15px 20px 15px;
+border-radius: 30px;
+transition: 0.2s;
 }
 
 #ano_2014{
-    background-color: #06d39a;
+background-color: #06d39a;
 }
 
 #boxCamadas{
-    position: relative;
-    width: 55%;
-    align-self: center;
-    margin-bottom: 18%;
+position: relative;
+width: 55%;
+align-self: center;
+margin-bottom: 18%;
 }
 
 #camada1, #camada2, #camada3, #camada4, #camada5 {
-    background-color: #cdcdcd5b;
-    font-family: Montserrat;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    border-radius: 13px;
-    padding: 10px;
-    box-sizing: border-box;
-    visibility: hidden;
-    text-align: center;
+background-color: #cdcdcd5b;
+font-family: Montserrat;
+position: absolute;
+width: 100%;
+height: auto;
+border-radius: 13px;
+padding: 10px;
+box-sizing: border-box;
+visibility: hidden;
+text-align: center;
 }
 
 #camada1 {
-    visibility: visible;
+visibility: visible;
 }
 
 .titulo_trajetoria{
-    color: #1bca98;
-    font-size: 35px;
+color: #1bca98;
+font-size: 35px;
 }
 
 .paragrafo_trajetoria{
-    font-size: 20px;
-    margin-top: 3%;
-    padding: 10px;
+font-size: 20px;
+margin-top: 3%;
+padding: 10px;
 }
 
-
 .linha{
-    border-style: dashed;
-    border-color: #000;
-    border-width: 2px;
-    rotate: 270deg;
+border-style: dashed;
+border-color: #000;
+border-width: 2px;
+rotate: 270deg;
 }
 
 /* --- Trajetoria fim -- */
@@ -224,113 +218,112 @@ input {
 /* --- Plus inicio -- */
 
 .plus {
-    font-family: Montserrat;
-    justify-content: space-around;
-    width: 100%;
-    height: 100vh;
-    background-color: #f9f9f9;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10vh;
+font-family: Montserrat;
+justify-content: space-around;
+width: 100%;
+height: 100vh;
+background-color: #f9f9f9;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 10vh;
 }
 
 .plus_titulo {
-    font-size: 40px;
-    width: 50%;
+font-size: 40px;
+width: 50%;
 }
 
 #plus_box {
-    position: relative;
-    width: 55%; 
-    height: 220px;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    font-size: 20px;
-    text-align:left;
+position: relative;
+width: 55%;
+height: 220px;
+display: flex;
+flex-direction: row;
+gap: 50px;
+font-size: 20px;
+text-align: left;
 }
 
 #plus_box_box {
-    position: relative;
-    width: 55%;
-    height: 220px;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    font-size: 20px;
-    text-align:left;
+position: relative;
+width: 55%;
+height: 220px;
+display: flex;
+flex-direction: row;
+gap: 50px;
+font-size: 20px;
+text-align: left;
 }
 
-#plus_box h1    {
-    font-size: 20px;
-    margin-bottom: 25px;
-    color: #fff;
+#plus_box h1 {
+font-size: 20px;
+margin-bottom: 25px;
+color: #fff;
 }
 
-#plus_box_box h1{
-    font-size: 20px;
-    margin-bottom: 25px;
-    color: #fff;
+#plus_box_box h1 {
+font-size: 20px;
+margin-bottom: 25px;
+color: #fff;
 }
 
-#plus_box1{
-    background: rgb(4,217,157);
-    background: linear-gradient(300deg, #12A1B0 0%, #0DC591 100%);
-    width: 47%;
-    padding: 3%;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
-
+#plus_box1 {
+background: rgb(4, 217, 157);
+background: linear-gradient(300deg, #12a1b0 0%, #0dc591 100%);
+width: 47%;
+padding: 3%;
+border-radius: 30px;
+box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-#plus_box2{
-    background: rgb(4,217,157);
-    background: linear-gradient(300deg, #12A1B0 0%, #0DC591 100%);
-    width: 47%;
-    padding: 3%;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+#plus_box2 {
+background: rgb(4, 217, 157);
+background: linear-gradient(300deg, #12a1b0 0%, #0dc591 100%);
+width: 47%;
+padding: 3%;
+border-radius: 30px;
+box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-#plus_box3{
-    background: rgb(4,217,157);
-    background: linear-gradient(300deg, #12A1B0 0%, #0DC591 100%);
-    width: 47%;
-    padding: 3%;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+#plus_box3 {
+background: rgb(4, 217, 157);
+background: linear-gradient(300deg, #12a1b0 0%, #0dc591 100%);
+width: 47%;
+padding: 3%;
+border-radius: 30px;
+box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-#plus_box4{
-    background: rgb(4,217,157);
-    background: linear-gradient(300deg, #12A1B0 0%, #0DC591 100%);
-    width: 47%;
-    padding: 3%;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+#plus_box4 {
+background: rgb(4, 217, 157);
+background: linear-gradient(300deg, #12a1b0 0%, #0dc591 100%);
+width: 47%;
+padding: 3%;
+border-radius: 30px;
+box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* --- Plus fim -- */
 
-
-footer{
-    font-family: Montserrat;
-    width: 100%;
-    height: auto;
+footer {
+font-family: Montserrat;
+width: 100%;
+height: auto;
 }
 
-#footerSuperior, #footerInferior{
-    width: 100%;
+#footerSuperior,
+#footerInferior {
+width: 100%;
 }
 
-#footerSuperior{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 250px;
-    background-color: #ececec;
+#footerSuperior {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 250px;
+background-color: #ececec;
 }
 
 #footerEsquerda{
@@ -338,7 +331,7 @@ footer{
     color: #04D99D;
     padding-top: 20px;
     padding-left: 20px; 
-    width: 25%;
+    width: 30%;
 }
 
 #footerCentro{
@@ -346,12 +339,12 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
 }
 
 #insideCentro{
     display: flex;
-    width: 100%;
+    width: 70%;
     height: 80%;
 }
 
@@ -360,24 +353,25 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 28px;
+    font-size: 25px;
     gap: 40px;
     width: 60%;
     height: 100%;
 }
 
-#nav1 a, #nav2 a{
-    text-decoration: none;
-    color: #04d99d;
+#nav1 a,
+#nav2 a {
+text-decoration: none;
+color: #04d99d;
 }
 
-#nav1{
-    border-right: 1px solid #bababa;
+#nav1 {
+border-right: 1px solid #bababa;
 }
 
-#nav2 h6{
-    font-weight: normal;
-}   
+#nav2 h6 {
+font-weight: normal;
+}
 
 #footerDireita{
     display: flex;
@@ -385,111 +379,538 @@ footer{
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
-    width: 15%;
+    width: 30%;
 
 }
 
 #footerDireita img{
     width: 30px;
     z-index: 0;
+    
 }
 
+#footerInferior {
+height: 40px;
+font-size: 22px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #202020dd;
+color: #04d99d;
+font-weight: normal;
+}
+/* ------------------------------------------------------------ */
+@media only screen and (max-width: 480px) {
+header {
+    display: block;
+    height: auto;
+    background-color: #000000a9;
+}
+header #boxlinks_header {
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
 
-#footerInferior{
-    height: 40px;
-    font-size: 22px;
+    justify-content: space-between;
     text-align: center;
+}
+#boxlinks_header a {
+    width: 30%;
+    padding-top: 10px;
+    font-size: 16px;
+}
+#page_atual {
+    border-bottom: 2px solid;
+}
+#boxcadastro {
+    width: 90%;
+
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#boxregistro {
+    text-align: center;
+
+    width: 50%;
+}
+#boxlogin {
+    text-align: center;
+    background-color: cornsilk;
+}
+#boxmenu-header {
+    margin: auto;
+    width: 90%;
+}
+img {
+    display: block;
+    margin-top: 31.1%;
+}
+.trajetoria {
+    height: 100px;
+}
+#boxtitulo_sobre_nos {
+    display: block;
+    width: 100%;
+    margin-top: -45%;
+    margin-bottom: -80%;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+#botao {
+    display: block;
+    display: flex;
+    width: 100%;
+
+    margin-bottom: -100%;
+}
+
+input {
+    padding: 15px;
+}
+#boxCamadas {
+    width: 90%;
+    top: 50px;
+}
+#camada1 {
+    margin-bottom: 40px;
+}
+.plus {
+    display: block;
+    margin-top: 300px;
+
+    height: auto;
+}
+#plus_box {
+    width: 100%;
+    display: flex;
+    height: 250px;
+}
+.plus_titulo {
+    width: 100%;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#plus_box1 {
+    width: 47%;
+    margin-right: -40px;
+    margin-left: 9px;
+}
+#plus_box2 {
+    width: 47%;
+}
+#plus_box_box {
+    width: 100%;
+    width: 100%;
+    display: flex;
+    height: 250px;
+    margin-top: 30px;
+}
+#plus_box3 {
+    width: 47%;
+    height: auto;
+    margin-right: -40px;
+    margin-left: 9px;
+}
+#plus_box3 p {
+    font-size: 19.4px;
+}
+#plus_box4 {
+    width: 47%;
+}
+footer {
+    height: 420px;
+}
+
+#footerSuperior {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: #202020dd;
-    color: #04d99d;
-    font-weight: normal;
+    height: 390px;
 }
 
-@media only screen and (max-width:1066px) {
-
-    #footerEsquerda {
-        font-size: 20px;
-    }
-
-    #nav1, #nav2 {
-        font-size: 25px;
-    }
+#footerInferior {
+    height: 30px;
 }
 
-@media only screen and (max-width: 720px) {
-
-    #footerEsquerda {
-        width: 20%;
-        font-size: 15px;
-    }
-    #footerCentro {
-        width: 65%;
-    }
-
-    #footerDireita {
-        width: 15%;
-    }
-    #nav1, #nav2 {
-        font-size: 3.7vw;
-    }
+#footerEsquerda {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
 }
 
-@media only screen and (max-width: 480px) {
+#footerCentro {
+    width: 100%;
+    height: 310px;
+}
 
-    footer {
-        height: 420px;
+#insideCentro {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#nav1,
+#nav2 {
+    width: 100%;
+    height: 80px;
+    gap: 15px;
+    font-size: 20px;
+}
+
+#nav1 {
+    border: 0;
+}
+
+#footerDireita {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#footerDireita a {
+    position: relative;
+    margin-bottom: 25px;
+}
+}
+/* fim do mobile */
+
+/* começo tablet */
+@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) {
+    header {
+    display: block;
+    height: 10px;
+    }
+    #boxlogo {
+    margin-bottom: 10px;
+    }
+    header #boxlinks_header {
+    display: block;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
     }
 
-    #footerSuperior {
-        display: flex;
-        flex-direction: column;
-        height: 390px;
+    #boxcadastro {
+    display: block;
+    align-items: center;
+    display: flex;
+    float: right;
+    margin-right: 34px;
+    margin-top: 10px;
+    }
+    .trajetoria {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-top: -270px;
     }
 
-    #footerInferior {
-        height: 30px;
+    #boxtitulo_sobre_nos {
+    display: block;
+    }
+    #botao {
+    width: 70%;
+    margin-top: -120px;
+    }
+    #boxCamadas {
+    top: -130px;
+    width: 70%;
     }
 
-    #footerEsquerda {
-        width: 100%;
-        height: 40px;
-        font-size: 20px;
-        text-align: center;
-        padding: 10px 0;
+    .plus_titulo {
+    width: 80%;
+    font-size: 35px;
+    margin-left: -55px;
     }
-
-    #footerCentro {
-        width: 100%;
-        height: 310px;
+    #plus_box {
+    display: block;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
     }
-
-    #insideCentro {
-        flex-direction: column;
-        justify-content: space-around;
+    #plus_box1 {
+    margin-left: -55px;
     }
-
-    #nav1, #nav2 {
-        width: 100%;
-        height: 80px;
-        gap: 15px;
-        font-size: 20px;
-
+    #plus_box_box {
+    display: block;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
     }
-
-    #nav1 {
-        border: 0;
+    #plus_box3 {
+    margin-left: -55px;
     }
-
-    #footerDireita {
-        width: 100%;
-        height: 40px;
-        display: flex;
-        flex-direction: row;
+    #nav1 a {
+    margin-right: 12px;
     }
-
-    #footerDireita a {
-        padding: 0 10px;
+    #nav2 {
+    margin-left: 12px;
     }
 }
+}
+
+@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 769px) {
+    header {
+    display: block;
+    height: 10px;
+    }
+    #boxlogo {
+    margin-bottom: 10px;
+    }
+    header #boxlinks_header {
+    display: block;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    #boxcadastro {
+    display: block;
+    align-items: center;
+    display: flex;
+    float: right;
+    margin-right: 34px;
+    margin-top: 10px;
+    }
+    .trajetoria {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-top: -270px;
+    }
+
+    #boxtitulo_sobre_nos {
+    display: block;
+    }
+    #botao {
+    width: 70%;
+    margin-top: -120px;
+    }
+    #boxCamadas {
+    top: -130px;
+    width: 70%;
+    }
+
+    .plus_titulo {
+    width: 80%;
+    font-size: 35px;
+    margin-left: -55px;
+    }
+    #plus_box {
+    display: block;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    }
+    #plus_box1 {
+    margin-left: -55px;
+    }
+    #plus_box_box {
+    display: block;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    }
+    #plus_box3 {
+    margin-left: -55px;
+    }
+    #nav1 a {
+    margin-right: 12px;
+    }
+    #nav2 {
+    margin-left: 12px;
+    }
+}
+}
+/* final tablet */
+
+/* comço leptop */
+@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1025px) {
+    header {
+    display: block;
+    height: 10px;
+    }
+    #boxlogo {
+    margin-bottom: 10px;
+    }
+    header #boxlinks_header {
+    display: block;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    #boxcadastro {
+    display: block;
+    align-items: center;
+    display: flex;
+    float: right;
+    margin-right: 34px;
+    margin-top: 10px;
+    }
+    .trajetoria {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-top: -270px;
+    }
+
+    #boxtitulo_sobre_nos {
+    display: block;
+    }
+    input {
+    width: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    }
+    #botao {
+    width: 70%;
+    margin-top: -120px;
+    height: 100px;
+    }
+    #boxCamadas {
+    top: -130px;
+    width: 70%;
+    }
+
+    .plus_titulo {
+    width: 80%;
+    font-size: 35px;
+    margin-left: -55px;
+    }
+    #plus_box {
+    display: block;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    }
+    #plus_box1 {
+    margin-left: -55px;
+    }
+    #plus_box_box {
+    display: block;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    }
+    #plus_box3 {
+    margin-left: -55px;
+    }
+    #nav1 a {
+    margin-right: 12px;
+    }
+    #nav2 {
+    margin-left: 12px;
+    }
+}
+}
+/*  */
+
+/* começo desctop */
+@media only screen and (max-width: 1600px) {
+@media only screen and (min-width: 1280px) {
+    header {
+    display: block;
+    height: 10px;
+    }
+    #boxlogo {
+    margin-bottom: 10px;
+    }
+    header #boxlinks_header {
+    display: block;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    }
+
+    #boxcadastro {
+    display: block;
+    align-items: center;
+    display: flex;
+    margin-right: 34px;
+    margin-top: 10px;
+
+    width: 28%;
+    }
+    .trajetoria {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-top: -270px;
+    }
+
+    #boxtitulo_sobre_nos {
+    display: block;
+    }
+    input {
+    width: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    }
+    #botao {
+    width: 70%;
+    margin-top: -120px;
+    height: 100px;
+    }
+    #boxCamadas {
+    top: -130px;
+    width: 90%;
+    }
+    #boxCamadas p {
+    padding-bottom: 100px;
+    font-size: 30px;
+    }
+
+    .plus_titulo {
+    width: 80%;
+    font-size: 50px;
+    margin-left: -55px;
+    }
+    #plus_box {
+    display: block;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    height: 350px;
+    font-size: 35px;
+    }
+    #plus_box h1 {
+    font-size: 35px;
+    }
+    #plus_box1 {
+    margin-left: -55px;
+    }
+    #plus_box_box h1 {
+    font-size: 35px;
+    }
+    #plus_box_box {
+    display: block;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    height: 350px;
+    font-size: 35px;
+    }
+    #plus_box3 {
+    margin-left: -55px;
+    }
+    #nav1 a {
+    margin-right: 12px;
+    }
+    #nav2 {
+    margin-left: 12px;
+    }
+}
+} 

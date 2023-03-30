@@ -11,13 +11,14 @@ function mudarTema(){
             document.getElementById("redondoBaixo").style.backgroundColor="#262626";
             document.getElementById("cabecalho").style.backgroundColor="#00000000";
             document.getElementById("invest_responsivo").style.backgroundColor="#262626"
+            document.getElementById("botaoTema").style.animationName="animate"
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #fff";
             }
             for (i=0; i<=4; i++){
-                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1)"
+                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(1)";
             }
-            lastTheme = "#262626"
+            lastTheme = "#262626";
             break
         
         case "#262626":
@@ -25,14 +26,14 @@ function mudarTema(){
             document.getElementById("redondoCima").style.backgroundColor="#fff";
             document.getElementById("redondoBaixo").style.backgroundColor="#fff";
             document.getElementById("cabecalho").style.backgroundColor="#e5e5e5";
-            document.getElementById("invest_responsivo").style.backgroundColor="#fff"
+            document.getElementById("invest_responsivo").style.backgroundColor="#fff";
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #000";
             }
             for (i=0; i<=4; i++){
-                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(0)"
+                document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(0)";
             }
-            lastTheme = "#fff"
+            lastTheme = "#fff";
             break
     }
 }
