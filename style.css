@@ -739,8 +739,16 @@ footer{
 
 @media only screen and (max-width: 480px) {
 
+    #texto_resumo {
+        font-size: 6vw;
+    }
+
     #modelo {
         justify-content: center;
+    }
+
+    #modelo img {
+        width: 50vw;
     }
 
     #resumo div{
