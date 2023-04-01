@@ -1,5 +1,5 @@
 <h1> H-Bank </h1>
-<img src="https://imgur.com/a/oyuzBkp">
+<img src="https://i.imgur.com/jrvcxTQ.png>
 Uma FinTech idealizada e projetada para facilitar as transações bancárias, tanto digitalmente quanto fisicamente
 
 #
