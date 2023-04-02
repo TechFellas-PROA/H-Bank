@@ -530,6 +530,36 @@ footer{
 
 @media only screen and (max-width:1066px) {
 
+    header {
+        display: block;
+        height: auto;
+    }
+
+    #boxlogo {
+        margin-bottom: 10px;
+    }
+
+    header #boxlinks_header {
+        display: block;
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #boxcadastro {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        float: right;
+        margin-top: 10px;
+    }
+
+    #boxlogin a {
+        background-color: #E5E5E5;
+    }
+
     #resumo div{
         height: 550px;
     }
@@ -718,6 +748,59 @@ footer{
 }
 
 @media only screen and (max-width: 480px) {
+
+    header {
+        display: block;
+        height: auto;
+    }
+
+    header #boxlinks_header {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    #boxlinks_header a {
+        width: 30%;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    #page_atual {
+        border-bottom: 2px solid;
+    }
+
+    #boxcadastro {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #boxregistro {
+        margin: 0;
+    }
+
+    #boxregistro a {
+        text-align: center;
+        padding: 3px 15px;
+    }
+
+    #boxlogin a {
+        width: auto;
+        text-align: center;
+        padding: 3px 25px;
+    }
+
+    #boxmenu-header {
+        margin: auto;
+        width: 90%;
+    }
 
     #texto_resumo {
         font-size: 6vw;

@@ -42,6 +42,7 @@ font-family: Montserrat;
 }
 
 #botaoTema img{
+    margin: 0;
     width: 90% !important;
 }
 
@@ -56,103 +57,95 @@ width: 100%;
 height: 124vh;
 }
 
-img{
+#img_backgraud img{
 position: absolute;
 width: 100%;
 height: auto;
 z-index: -1;
 }
 
-*{
-padding: 0;
-margin: 0;
-border: 0;
+header{
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #00000046;
+    display: flex;
 }
 
-header{
-width: 100%;
-height: 60px;
-background-color: #00000044;
-display: flex;
-align-items: center;
-}
 header #boxlogo{
-color: #fff;
-font-size: 20px;
-margin-left: 20px;
-font-family: Atomed;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    font-family: Atomed;
 }
-header #boxlinks_header{
-width: 50%;
-margin: auto;
-font-size: 20px;
-display: flex;
-justify-content: space-between;
+
+header  #boxlinks_header{
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #boxlinks_header a{
-text-decoration: none;
-color: #ffffff;
+    text-decoration: none; 
+    color: #fff;
+    transition: 0.05s;
 }
 
 #boxlinks_header a:hover{
-border-bottom: solid 1px;
+    border-bottom: solid;
+}
+
+#linkAtual{
+    border-bottom: solid;
 }
 
 #boxcadastro{
-width: auto;
-align-items: center;
-display: flex;
-padding: 10px;
-font-family: Montserrat;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 10px;
 }
 
 div #boxlogin{
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 #boxlogin a{
-text-decoration: none;
-color: #06d39a;
-background-color: #fff;
-padding: 6px 50px 6px 50px;
-border-radius: 3px;
-}
-#page_atual{
-border-bottom: solid 0.5px;
+    text-decoration: none;
+    color: #06d39a;
+    background-color: #fff;
+    padding: 6px 50px 6px 50px;
+    border-radius: 3px;
+    transition: 0.7s;
 }
 
 div #boxregistro{
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 #boxregistro a{
-text-decoration: none;
-color: #000;
-background-color: #06d39a;
-padding: 6px 30px 6px 30px;
-border-radius: 3px;
-}
-div #boxregistro:hover{
-background-color: #fff;
-transition: 0.7s;
-}
-#boxregistro a:hover{
-color: #06d39a;
-background-color: #fff;
-transition: 0.7s;
-}
-
-div #boxlogin:hover{
-background-color: #06d39a;
-transition: 0.7;
+    text-decoration: none;
+    color: #000;
+    background-color: #06d39a;
+    padding: 6px 25px 6px 25px;
+    border-radius: 3px;
+    transition: 0.7s
 }
 
 #boxlogin a:hover{
-color: #000;
-background-color: #06d39a;
-transition: 0.7s;
+    color: #000;
+    background-color: #06d39a;
 }
+
+#boxregistro a:hover{
+   color: #06d39a;
+   background-color: #fff;
+}
+
 
 /* --- Trajetoria inicio -- */
 
@@ -454,52 +447,65 @@ font-weight: normal;
             font-size: 15px;
         }
     }
-header {
-    display: block;
-    height: auto;
-    background-color: #000000a9;
-}
-header #boxlinks_header {
-    width: 100%;
-    margin-top: 20px;
-    height: auto;
+    header {
+        display: block;
+        height: auto;
+        background-color: #000000a9;
+    }
 
-    justify-content: space-between;
-    text-align: center;
-}
-#boxlinks_header a {
-    width: 30%;
-    padding-top: 10px;
-    font-size: 16px;
-}
-#page_atual {
-    border-bottom: 2px solid;
-}
-#boxcadastro {
-    width: 90%;
+    header #boxlinks_header {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+        justify-content: space-between;
+        text-align: center;
+    }
 
-    margin: auto;
-    margin-left: 40px;
-    margin-top: 20px;
-}
-#boxregistro {
-    text-align: center;
+    #boxlinks_header a {
+        width: 30%;
+        padding-top: 10px;
+        font-size: 16px;
+    }
 
-    width: 50%;
-}
-#boxlogin {
-    text-align: center;
-    background-color: cornsilk;
-}
-#boxmenu-header {
-    margin: auto;
-    width: 90%;
-}
+    #page_atual {
+        border-bottom: 2px solid;
+    }
+
+    #boxcadastro {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #boxregistro {
+        margin: 0;
+    }
+
+    #boxregistro a {
+        text-align: center;
+        padding: 3px 15px;
+    }
+
+    #boxlogin a {
+        width: auto;
+        text-align: center;
+        padding: 3px 25px;
+    }
+
+    #img_backgraud {
+        height: 650px;
+    }
+
 img {
     display: block;
     margin-top: 31.1%;
 }
 .trajetoria {
+    margin-top: px;
     height: 100px;
 }
 #boxtitulo_sobre_nos {
@@ -529,18 +535,17 @@ input {
     top: 50px;
 }
 #camada1 {
-    margin-bottom: 40px;
+    margin-bottom:0 40px;
 }
 .plus {
     display: block;
     margin-top: 300px;
-
     height: auto;
 }
 #plus_box {
     width: 100%;
     display: flex;
-    height: 250px;
+    height: auto;
     margin-top: 30px;
 }
 .plus_titulo {
@@ -560,9 +565,8 @@ input {
 }
 #plus_box_box {
     width: 100%;
-    width: 100%;
     display: flex;
-    height: 250px;
+    height: auto;
     margin-top: 30px;
 }
 #plus_box3 {
@@ -638,32 +642,38 @@ footer {
 @media only screen and (max-width: 768px) {
 @media only screen and (min-width: 481px) {
     header {
-    display: block;
-    height: auto;
+        display: block;
+        height: auto;
     }
+
     #boxlogo {
-    margin-bottom: 10px;
+        margin-bottom: 10px;
     }
+
     header #boxlinks_header {
-    display: block;
-    width: 95%;
-    display: flex;
-    justify-content: space-around;
+        display: block;
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
     }
 
     #boxcadastro {
-    display: block;
-    align-items: center;
-    display: flex;
-    float: right;
-    margin-right: 34px;
-    margin-top: 10px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        float: right;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #img_backgraud {
+        height: 100vh;
     }
     .trajetoria {
-    display: block;
-    display: flex;
-    flex-direction: column;
-    margin-top: -270px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        margin-top: -270px;
     }
 
     #boxtitulo_sobre_nos {
@@ -727,13 +737,14 @@ footer {
     }
 
     #boxcadastro {
-    display: block;
+    width: 100%;
     align-items: center;
     display: flex;
+    justify-content: center;
     float: right;
-    margin-right: 34px;
     margin-top: 10px;
     }
+
     .trajetoria {
     display: block;
     display: flex;
@@ -790,25 +801,24 @@ footer {
 @media only screen and (max-width: 1280px) {
 @media only screen and (min-width: 1025px) {
     header {
-    display: block;
-    height: auto;
+    display: flex;
+    height: 60px;
     }
     #boxlogo {
     margin-bottom: 10px;
     }
     header #boxlinks_header {
-    display: block;
-    width: 95%;
+    width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: auto;
     }
 
     #boxcadastro {
+    width: auto;
     display: block;
     align-items: center;
     display: flex;
-    float: right;
-    margin-right: 34px;
     margin-top: 10px;
     }
     .trajetoria {
@@ -845,16 +855,18 @@ footer {
     display: block;
     display: flex;
     width: 80%;
+    height: auto;
     justify-content: space-around;
     }
     #plus_box1 {
     margin-left: -55px;
     }
     #plus_box_box {
-    display: block;
     display: flex;
     width: 80%;
+    height: auto;
     justify-content: space-around;
+    font-size: 25px;
     }
     #plus_box3 {
     margin-left: -55px;
@@ -865,6 +877,10 @@ footer {
     #nav2 {
     margin-left: 12px;
     }
+
+    footer {
+        padding-top: 10vh;
+    }
 }
 }
 /*  */
@@ -873,14 +889,17 @@ footer {
 @media only screen and (max-width: 1600px) {
 @media only screen and (min-width: 1280px) {
     header {
-    height: auto;
+    width: 100%;
+    height: 60px;
+    display: flex;
     }
     #boxlogo {
-    width: 8%;
+    font-size: 15px;
+    align-items: center;
     }
     header #boxlinks_header {
     display: block;
-    width: 70%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     float: left;
@@ -890,9 +909,7 @@ footer {
     display: block;
     align-items: center;
     display: flex;
-    margin-right: 34px;
     margin-top: 10px;
-
     width: 28%;
     }
     .trajetoria {
@@ -921,22 +938,23 @@ footer {
     }
     #boxCamadas p {
     padding-bottom: 100px;
-    font-size: 30px;
+    font-size: 25px;
     }
 
     .plus_titulo {
     width: 80%;
     font-size: 50px;
-    margin-left: -55px;
+    padding-top: 5vh;
     }
+
     #plus_box {
-    display: block;
     display: flex;
-    width: 90%;
+    width: 85%;
     justify-content: space-around;
-    height: 350px;
-    font-size: 35px;
+    height: auto;
+    font-size: 30px;
     }
+
     #plus_box h1 {
     font-size: 35px;
     }
@@ -947,12 +965,11 @@ footer {
     font-size: 35px;
     }
     #plus_box_box {
-    display: block;
     display: flex;
-    width: 90%;
+    width: 85%;
     justify-content: space-around;
-    height: 350px;
-    font-size: 35px;
+    height: auto;
+    font-size: 30px;
     }
     #plus_box3 {
     margin-left: -55px;
@@ -963,5 +980,9 @@ footer {
     #nav2 {
     margin-left: 12px;
     }
-}
+
+    footer {
+        padding-top: 10vh;
+    }
+  }
 } 
