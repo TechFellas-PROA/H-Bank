@@ -28,6 +28,7 @@ function mudarTema(){
             document.getElementById("redondoBaixo").style.backgroundColor="#fff";
             document.getElementById("cabecalho").style.backgroundColor="#e5e5e5";
             document.getElementById("invest_responsivo").style.backgroundColor="#fff";
+            lastTheme = "#fff";
             for (i=0; i<=3; i++){
                 document.getElementsByClassName("linksHeader")[i].style.cssText="color: #000";
                 document.getElementById(`investimento${i+1}`).style.backgroundColor="#fff";
@@ -36,7 +37,7 @@ function mudarTema(){
             for (i=0; i<=4; i++){
                 document.getElementsByClassName("iconeFooter")[i].style.cssText="filter: invert(0)";
             }
-            lastTheme = "#fff";
+            
             break
     }
 }
